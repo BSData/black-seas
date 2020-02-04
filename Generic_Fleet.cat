@@ -932,11 +932,11 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="094c-379d-6416-b897" name="Inexperienced Crew" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="094c-379d-6416-b897" name="Inexperienced Crew" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="decrement" field="7d88-7913-6ca0-ac33" value="10.0">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -948,7 +948,7 @@
           <modifiers>
             <modifier type="increment" field="7d88-7913-6ca0-ac33" value="10.0">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="true"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -977,7 +977,7 @@
         <entryLink id="91fa-4dfd-3b99-2c79" name="Streamlined Hull" hidden="false" collective="false" import="true" targetId="fdcb-07cf-5868-7756" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5bef-b76f-62a1-0ecd" name="1. Garrison" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5bef-b76f-62a1-0ecd" name="1. Garrison" hidden="false" collective="false" import="true" defaultSelectionEntryId="86ea-b40d-8992-1f58">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9223-a8c9-8a22-f682" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b0-aca3-143f-b63d" type="min"/>
@@ -992,7 +992,7 @@
           <modifiers>
             <modifier type="decrement" field="7d88-7913-6ca0-ac33" value="10.0">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1004,7 +1004,7 @@
           <modifiers>
             <modifier type="increment" field="7d88-7913-6ca0-ac33" value="10.0">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="true"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
               </repeats>
             </modifier>
           </modifiers>
