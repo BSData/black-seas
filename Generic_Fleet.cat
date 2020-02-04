@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9521-0728-2941-21f9" name="Generic Fleet" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="9c6d-2bdc-d73c-0ded" name="1st Rate Ship of the Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0ad6-d9bc-1778-f424" name="New CategoryLink" hidden="false" targetId="09d9-4f22-4c51-dd08" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7957-2804-51e3-fd45" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="0af8-eb27-98fc-90a7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6347-f84e-7e57-afd4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="344f-212f-df3c-6f70" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0af8-eb27-98fc-90a7" name="1st Rate Ship of the Line" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="450.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="223a-1d3e-7ce7-df93" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="284c-bfa6-228a-eeab" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d24-1c74-98a8-3c61" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a493-d915-3e07-c67e" name="5th Rate Ship of the Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="dd1a-9340-32e0-a06c" name="New CategoryLink" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f06-b3bc-0de6-3662" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="25eb-4a17-b84d-c019">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eda-cd37-e7ed-6619" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="328a-b2b1-3b9d-e3d5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="25eb-4a17-b84d-c019" name="5th Rate Ship of the Line" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9a9c-b8cb-0719-b508" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="cc10-1fb8-e8fd-b3be" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62eb-0fc6-d452-ac6b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="1759-9b05-34b8-704d" name="4th Rate Ship of the Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="05a1-19bd-a361-62dd" name="New CategoryLink" hidden="false" targetId="ae6a-c588-ada0-80c3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a197-e58b-72c4-1be6" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="d5c9-747e-5528-5d80">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df0f-8667-9860-989a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4419-e03e-1d92-cbb7" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d5c9-747e-5528-5d80" name="4th Rate Ship of the Line" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="190.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="917b-039a-3394-ff3b" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="074b-196d-82b6-ccc0" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="168f-ee7b-94bc-5a4e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="c4fb-bec3-37ea-76bf" name="3rd Rate Ship of the Line (Large)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0bfc-3ec6-8031-2cf7" name="New CategoryLink" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a723-c642-cf38-c4b1" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d4c-4967-c4df-5bb6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d119-2dc6-673b-073a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ce-a3f2-d12f-6ea8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6d4c-4967-c4df-5bb6" name="3rd Rate Ship of the Line (Large)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="280.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1ef0-3534-a001-26e4" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="33d3-8726-0a02-da24" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6c2-dd77-fd1e-b8dc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="13ec-8734-da23-6790" name="2nd Rate Ship of the Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6a88-8378-e6fb-76b0" name="New CategoryLink" hidden="false" targetId="5a43-d55a-bfad-3218" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4dd8-d1b9-0547-d054" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="8fee-728d-b9ba-38ea">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1b-4426-1aa6-b3ed" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60f1-c7e2-b13c-2d2f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8fee-728d-b9ba-38ea" name="2nd Rate Ship of the Line" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="400.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="63b7-fef7-1a2a-8398" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="926f-4673-32c8-0e18" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d571-9f4e-ae03-45e0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5cf6-6d7b-8f67-bb06" name="3rd Rate Ship of the Line (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b750-4a25-be9e-a4a0" name="New CategoryLink" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b6a4-8d00-b864-190b" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="83c0-5686-d406-2906">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d8-af22-1004-45d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e0-a4fa-15c7-25bb" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="83c0-5686-d406-2906" name="3rd Rate Ship of the Line (Small)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="250.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c662-2e9c-2db2-d5ae" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="2045-474c-b0d2-52c0" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee5-c381-8a4b-c431" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="4954-fdba-1f3f-b047" name="6th Rate Ship of the Line" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b80f-64aa-e999-1eeb" name="New CategoryLink" hidden="false" targetId="dfd7-a96e-5989-b3b3" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d492-5921-4a39-07f3" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8d3-709c-0c5b-aa8b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b7-fa31-c43f-a8a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2f0-a3da-842f-1cf3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e8d3-709c-0c5b-aa8b" name="6th Rate Ship of the Line" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="120.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f416-ae1b-e139-806d" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="7ff7-67a8-5d03-17b1" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f578-1dc4-3cc3-16cf" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="6e01-6a2e-3ff0-f72a" name="Shore Gun Emplacement" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="ae65-2b15-46f0-1bf9" name="Land Fortifications" hidden="false" targetId="dd44-882c-63ce-5c67" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bce8-ab64-b0e4-e1d3" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="573d-53b2-a50d-af71" name="Shore Mortar Emplacement" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="daa8-3325-2dd6-367d" name="New CategoryLink" hidden="false" targetId="dd44-882c-63ce-5c67" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4ad4-eeb0-4353-b252" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2cb1-e8d7-417b-90ee" name="Martello Tower" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="2f38-ebf9-7f38-82e0" name="New CategoryLink" hidden="false" targetId="dd44-882c-63ce-5c67" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fc93-5752-a9e8-3018" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4824-d0c5-545d-d1e1" name="Shore Fortress" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="1da1-353c-e1f2-1e6f" name="New CategoryLink" hidden="false" targetId="dd44-882c-63ce-5c67" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b01-5202-b933-ffed" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bef9-bda7-e890-c9cf" name="Floating Battery" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="ac4c-7480-685c-7269" name="New CategoryLink" hidden="false" targetId="dd44-882c-63ce-5c67" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e395-f497-99a4-56f1" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66a6-b9da-0722-96f3" name="Galley* (Large)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e58d-d0b8-5eca-453f" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87a5-5fdc-72dc-009c" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="9617-35e6-edef-4124">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55cb-5186-000f-1607" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f264-d8cb-b41c-bd17" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9617-35e6-edef-4124" name="Galley* (Large)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="eb01-6a6b-6ce9-8b45" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="610a-77bb-5891-e78b" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb9-de44-15c2-3d93" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="4de2-f8ef-3f59-b2e0" name="Galley* (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="afcd-1bed-e45e-e6e9" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="db85-d220-c7cd-b811" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="7876-197c-43e1-4fe0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c0e-3e38-da66-544e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4109-aaa1-76e0-9941" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7876-197c-43e1-4fe0" name="Galley* (Small)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d389-9f90-a9db-55b1" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="ae17-3e2f-30ce-5fd5" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63db-6488-551f-de05" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="3fca-4d05-cfb3-c4e8" name="Merchant (Large)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e349-f276-70fa-0628" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="930c-f67d-e618-58d7" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="356d-54fe-8d26-7ad6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91f-8670-3c17-9f1e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7712-9d51-96ca-b1de" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="356d-54fe-8d26-7ad6" name="Merchant (Large)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="90.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2089-d7a6-534b-d4e7" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f7-89e9-b3fb-f8c9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a3f4-2fc0-8788-4ef7" name="Merchant (Small)" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e6dd-c5aa-7719-fbc1" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0224-0b62-8a21-918b" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a53-15ad-3405-9e9f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e97-5ce4-b468-038e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="237f-ec61-2dd9-f4a4" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9a53-15ad-3405-9e9f" name="Merchant (Small)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ab5f-e293-3cf8-69b8" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="688f-6bb7-cf96-a5af" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="6ae6-c755-0df1-eaf9" name="Brig" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6a47-d57e-5e4d-a241" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3eeb-1915-ee35-ef55" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbcc-d819-58fe-3a6a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0779-e7e8-1ae2-4f6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8180-6a61-25e8-4a9f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bbcc-d819-58fe-3a6a" name="Brig" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f3f9-ffaf-6831-2883" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="0d61-4947-5599-2991" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e534-9e65-739c-d524" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="9ae7-35c8-2dba-1839" name="Bomb Ketch" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2109-5951-7933-6cb2" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="efa6-6474-47a3-57d5" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="09a7-2eb1-7f43-2663">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1245-a616-f38f-0f55" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6d-96c9-5a76-e8ce" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="09a7-2eb1-7f43-2663" name="Bomb Ketch" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a964-b305-0384-3542" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="bf7f-5471-3b79-3410" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f813-93cf-e188-c7e2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="70e0-e418-969c-db10" name="Barque" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1429-1519-1f7b-d19f" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6c8b-0ce9-3065-47d5" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="f74e-d81c-4a34-754b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c4-6c53-31cf-50dc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7efa-46e6-a7af-e962" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f74e-d81c-4a34-754b" name="Barque" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="703e-7680-bfdf-73df" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="0833-3a0b-af35-6bb7" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b191-467a-46c3-7b65" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d4fc-3b33-b656-155e" name="Sloop" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="6bce-62c3-893e-91b6" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb9c-3288-987f-4e9e" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="480b-a9a8-a3fc-1057">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b30-f982-f221-b5c6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ec-2248-b9da-510e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="480b-a9a8-a3fc-1057" name="Sloop" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3fb8-c7f8-4775-6d57" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="7760-d0aa-7bdb-6d11" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14d0-e8be-3e42-d157" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="2180-fb51-f025-9bcb" name="Cutter" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="59ee-ba05-085d-4f6b" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d820-17b0-ac22-e9f5" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ca8-67e0-05c9-8616">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a82-84c5-de99-23e7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88d-e8b3-9dd6-3055" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ca8-67e0-05c9-8616" name="Cutter" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f1e1-25de-6933-858d" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="fbd2-6c58-d04c-6a50" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba75-a422-d8d7-8216" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="51ed-f46e-05bc-3afa" name="Schooner" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cae5-deea-f1d6-26a9" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1218-ecd5-f3db-767d" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="d31f-6533-f770-e920">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b85e-3ac1-c541-e23e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf23-0d95-f51c-1093" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d31f-6533-f770-e920" name="Schooner" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e774-e645-aa55-2d67" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="614a-47d0-3a3d-0abb" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770c-67b5-7e83-4d74" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a984-1e67-a4b0-7822" name="Bomb Vessel" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="bbe9-66cc-f123-eeea" value="5.0">
+          <repeats>
+            <repeat field="limit::7d88-7913-6ca0-ac33" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="bbe9-66cc-f123-eeea" value="-1.0">
+          <conditions>
+            <condition field="forces" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe9-66cc-f123-eeea" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7fc1-1b3e-4cb0-4917" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="73fb-62e9-e7d8-7971" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="073e-866e-61ef-d2e0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef2-3e3a-2959-8b45" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c9-6b8d-ddc5-e490" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="073e-866e-61ef-d2e0" name="Bomb Vessel" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9dd4-ca19-d4e5-43f2" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="3c0b-6a5d-be49-6285" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9e-b573-4732-0058" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="fba8-08dd-61fa-8cba" name="Fire Ship" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="782c-98ea-49e6-64dd" value="4.0">
+          <repeats>
+            <repeat field="limit::7d88-7913-6ca0-ac33" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="782c-98ea-49e6-64dd" value="-1.0">
+          <conditions>
+            <condition field="forces" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782c-98ea-49e6-64dd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="be0f-e100-ee08-cc12" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1458-ae7c-e02f-87d3" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c00-a8b6-776e-3170">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2690-f365-8c37-d1f7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b183-9d09-3e7d-02f6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3c00-a8b6-776e-3170" name="Fireship" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9411-ead8-3da3-a22c" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+        <entryLink id="f898-e7d7-f099-fa6f" name="Unrated Upgrades" hidden="false" collective="false" import="true" targetId="8895-280c-0e1e-14a5" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5e-da8a-fcc5-15c3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="9b3c-301a-b2af-81c3" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="2371-5a67-5ab0-05b3" value="3.0">
+          <repeats>
+            <repeat field="limit::7d88-7913-6ca0-ac33" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="2371-5a67-5ab0-05b3" value="-1.0">
+          <conditions>
+            <condition field="forces" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2371-5a67-5ab0-05b3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="70d1-8f17-324e-c3fc" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="005f-7328-6134-fa1e" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="21b2-26ba-510a-3185">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a9-1d3a-f3cc-2d9c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec4-8cc1-e928-bab1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="21b2-26ba-510a-3185" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2f45-2790-5783-b919" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="19ab-5249-a6b4-6b1f" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="9408-556b-eadb-2330" value="6.0">
+          <repeats>
+            <repeat field="limit::7d88-7913-6ca0-ac33" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="9408-556b-eadb-2330" value="-1.0">
+          <conditions>
+            <condition field="forces" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9408-556b-eadb-2330" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="54c6-4c81-67ad-8cf2" name="New CategoryLink" hidden="false" targetId="9f25-859d-d94f-b265" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5898-9779-43f0-c9a3" name="Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="538e-1cdb-1e5c-3ca5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c3-70b8-2f4d-01bd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b520-58df-f2d6-445d" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="538e-1cdb-1e5c-3ca5" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0ef0-6bd9-1848-7e20" name="Crew" hidden="false" collective="false" import="true" targetId="1bf8-35ac-063b-136a" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="bc22-3f12-7101-de7e" name="Boarding Nets" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e6-fd46-a6a7-9365" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef64-1ea5-3e3b-1251" name="Grappling Hooks" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad9-a829-95c7-72a8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1dc-966c-01e4-56f1" name="Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73eb-5936-2ca3-617f" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="601b-c1ae-e0dd-2620" name="Ship&apos;s Surgeon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2af-934b-cc2b-e791" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc8c-0d1a-7ddc-9455" name="Sharpshooters" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a009-f934-3342-cd36" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b982-68bc-7f12-18bc" name="Privateer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b9-d2e7-30a4-5e75" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60c7-20c9-2507-ae5b" name="More Carronades" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97f-d41d-f0ed-0c17" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4229-1fc9-7c01-8f6f" name="Over Gunned" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef1e-8aa9-ae18-4b7b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0217-cbcf-81ca-791e" name="Master Gunner" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4b-97d0-0fa0-bf44" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dd2-5430-26a3-d09c" name="Master Caulker" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ca-3e27-939b-233e" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4639-cf53-6d48-374a" name="Master Carpenter" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="044d-bbaf-4a5e-adf5" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a54b-1a80-b352-9765" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02d1-5e3d-0796-9ae8" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdcb-07cf-5868-7756" name="Streamlined Hull" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f98-3e68-ece2-5857" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17b6-0894-8ff6-6dbe" name="Trained Marines" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9f6-1381-db48-640c" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d76d-2cf7-266f-e4ba" name="Swivel Guns" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e80-a15b-ea2e-3aab" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0c6-038b-684b-f70d" name="Sturdy" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3674-d6de-7b99-dd51" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="8b5c-d52b-7870-74b0" name="Rated Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="625f-9e0b-2636-1629" name="Trained Marines" hidden="false" collective="false" import="true" targetId="17b6-0894-8ff6-6dbe" type="selectionEntry"/>
+        <entryLink id="d650-d2ab-e6e5-59ae" name="Swivel Guns" hidden="false" collective="false" import="true" targetId="d76d-2cf7-266f-e4ba" type="selectionEntry"/>
+        <entryLink id="e8f2-c2aa-073e-5440" name="Lucky" hidden="false" collective="false" import="true" targetId="a54b-1a80-b352-9765" type="selectionEntry"/>
+        <entryLink id="cbf0-a957-fc3e-70ce" name="Privateer" hidden="false" collective="false" import="true" targetId="b982-68bc-7f12-18bc" type="selectionEntry"/>
+        <entryLink id="4bbb-f6f0-d47a-f13d" name="Master Carpenter" hidden="false" collective="false" import="true" targetId="4639-cf53-6d48-374a" type="selectionEntry"/>
+        <entryLink id="e497-081f-825b-0a74" name="Master Gunner" hidden="false" collective="false" import="true" targetId="0217-cbcf-81ca-791e" type="selectionEntry"/>
+        <entryLink id="43a3-fbe9-7a36-993e" name="More Carronades" hidden="false" collective="false" import="true" targetId="60c7-20c9-2507-ae5b" type="selectionEntry"/>
+        <entryLink id="cfe3-8f27-6555-00a6" name="Sturdy" hidden="false" collective="false" import="true" targetId="f0c6-038b-684b-f70d" type="selectionEntry"/>
+        <entryLink id="1a07-438b-fa39-5e45" name="Master Caulker" hidden="false" collective="false" import="true" targetId="7dd2-5430-26a3-d09c" type="selectionEntry"/>
+        <entryLink id="d715-d0a7-5c48-1516" name="Grappling Hooks" hidden="false" collective="false" import="true" targetId="ef64-1ea5-3e3b-1251" type="selectionEntry"/>
+        <entryLink id="65bd-9894-529a-c6e9" name="Grenades" hidden="false" collective="false" import="true" targetId="b1dc-966c-01e4-56f1" type="selectionEntry"/>
+        <entryLink id="c7a5-4388-8ef0-0997" name="Ship&apos;s Surgeon" hidden="false" collective="false" import="true" targetId="601b-c1ae-e0dd-2620" type="selectionEntry"/>
+        <entryLink id="6bdc-5aa2-891c-9cf2" name="Sharpshooters" hidden="false" collective="false" import="true" targetId="bc8c-0d1a-7ddc-9455" type="selectionEntry"/>
+        <entryLink id="dedb-fb1a-8b64-0c93" name="Boarding Nets" hidden="false" collective="false" import="true" targetId="bc22-3f12-7101-de7e" type="selectionEntry"/>
+        <entryLink id="76f2-1d87-eabc-9d56" name="Streamlined Hull" hidden="false" collective="false" import="true" targetId="fdcb-07cf-5868-7756" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1bf8-35ac-063b-136a" name="Crew" hidden="false" collective="false" import="true" defaultSelectionEntryId="a24c-01d5-6238-67fc">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89f1-97d4-3049-ff3b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e39-d81e-1136-3445" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a24c-01d5-6238-67fc" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade"/>
+        <selectionEntry id="094c-379d-6416-b897" name="Inexperienced Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="decrement" field="7d88-7913-6ca0-ac33" value="10.0">
+              <repeats>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="bbe8-1f77-b4fa-33e1" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="7d88-7913-6ca0-ac33" value="10.0">
+              <repeats>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8895-280c-0e1e-14a5" name="Unrated Upgrades" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="197f-7b10-e4b5-3bdf" name="Trained Marines" hidden="false" collective="false" import="true" targetId="17b6-0894-8ff6-6dbe" type="selectionEntry"/>
+        <entryLink id="b8aa-91f9-dd6f-9235" name="Swivel Guns" hidden="false" collective="false" import="true" targetId="d76d-2cf7-266f-e4ba" type="selectionEntry"/>
+        <entryLink id="0f3a-e68f-e0eb-156b" name="Lucky" hidden="false" collective="false" import="true" targetId="a54b-1a80-b352-9765" type="selectionEntry"/>
+        <entryLink id="0eb4-fd9b-9b11-1a4c" name="Privateer" hidden="false" collective="false" import="true" targetId="b982-68bc-7f12-18bc" type="selectionEntry"/>
+        <entryLink id="68eb-306c-f2f3-82c0" name="Over Gunned" hidden="false" collective="false" import="true" targetId="4229-1fc9-7c01-8f6f" type="selectionEntry"/>
+        <entryLink id="fe27-f33d-67f9-e279" name="Master Carpenter" hidden="false" collective="false" import="true" targetId="4639-cf53-6d48-374a" type="selectionEntry"/>
+        <entryLink id="0fc0-019c-0708-fc95" name="Master Gunner" hidden="false" collective="false" import="true" targetId="0217-cbcf-81ca-791e" type="selectionEntry"/>
+        <entryLink id="697f-5bbb-70b7-7465" name="More Carronades" hidden="false" collective="false" import="true" targetId="60c7-20c9-2507-ae5b" type="selectionEntry"/>
+        <entryLink id="67b2-8e0c-4e3a-f7df" name="Sturdy" hidden="false" collective="false" import="true" targetId="f0c6-038b-684b-f70d" type="selectionEntry"/>
+        <entryLink id="c63f-3968-6b95-e053" name="Master Caulker" hidden="false" collective="false" import="true" targetId="7dd2-5430-26a3-d09c" type="selectionEntry"/>
+        <entryLink id="754e-03bf-6333-153b" name="Grappling Hooks" hidden="false" collective="false" import="true" targetId="ef64-1ea5-3e3b-1251" type="selectionEntry"/>
+        <entryLink id="757f-ea82-9711-7a33" name="Grenades" hidden="false" collective="false" import="true" targetId="b1dc-966c-01e4-56f1" type="selectionEntry"/>
+        <entryLink id="97bf-ae20-ef61-f440" name="Ship&apos;s Surgeon" hidden="false" collective="false" import="true" targetId="601b-c1ae-e0dd-2620" type="selectionEntry"/>
+        <entryLink id="3e43-ac04-22f6-f808" name="Sharpshooters" hidden="false" collective="false" import="true" targetId="bc8c-0d1a-7ddc-9455" type="selectionEntry"/>
+        <entryLink id="2ce8-d083-e441-fa86" name="Boarding Nets" hidden="false" collective="false" import="true" targetId="bc22-3f12-7101-de7e" type="selectionEntry"/>
+        <entryLink id="91fa-4dfd-3b99-2c79" name="Streamlined Hull" hidden="false" collective="false" import="true" targetId="fdcb-07cf-5868-7756" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
