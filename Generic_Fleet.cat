@@ -312,7 +312,7 @@
         <categoryLink id="26be-c3e8-cf0c-ee05" name="3rd Rate Ships of the Line" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3453-7430-8ac9-c072" name="USS Constitution" hidden="false" collective="false" import="true" targetId="c6ed-93cf-9c3d-be82" type="selectionEntry">
+    <entryLink id="3453-7430-8ac9-c072" name="USS United States" hidden="false" collective="false" import="true" targetId="09fb-8374-bbc5-6be7" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
           <conditions>
@@ -386,6 +386,101 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="8f8a-35fb-4436-cd91" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c7ac-7989-f5a7-f159" name="USS President" hidden="false" collective="false" import="true" targetId="fb48-3730-2cc7-bf35" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be04-b2ef-5478-7dc9" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="caa1-4fb4-9f86-15ff" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9ec5-c4e6-ce2e-ab3a" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="260d-282d-afd8-539e" name="USS Constitution" hidden="false" collective="false" import="true" targetId="c6ed-93cf-9c3d-be82" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be04-b2ef-5478-7dc9" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78b1-5840-f6e5-50c8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="70d7-7e42-d5e4-5f47" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ffa2-d248-d1fc-ffbe" name="USS Constellation" hidden="false" collective="false" import="true" targetId="c21f-5353-e57a-e9e3" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be04-b2ef-5478-7dc9" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2f8f-cd9b-a0f8-86cf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c82d-38dd-1314-5bac" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d2fc-4bac-b1fd-9698" name="USS Congress" hidden="false" collective="false" import="true" targetId="641d-69fa-5d75-89d9" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be04-b2ef-5478-7dc9" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ee2-1064-65ec-f01a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8980-3f81-fc6f-56b6" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="29bf-2b18-c1cc-eea4" name="USS Chesapeake" hidden="false" collective="false" import="true" targetId="a4b1-40ef-b7d6-e002" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="be04-b2ef-5478-7dc9" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37e3-520e-aaa8-0ca9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e30f-14b8-7ff6-7614" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4275,6 +4370,736 @@
           </constraints>
         </entryLink>
         <entryLink id="a162-0d7e-92fc-cfad" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb48-3730-2cc7-bf35" name="USS President" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3f8c-e567-bf3f-7b83" name="USS President" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3be5-6021-8ba0-03e2" name="USS President" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7e28-639b-2f0a-4a76" name="USS President" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="47fe-418a-ce83-521b" name="USS President" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="fb48-3730-2cc7-bf35" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="fb48-3730-2cc7-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f52b-b52d-2e84-5a70" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="a8d0-9eef-a401-163b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e8-a09b-2bcc-cf59" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898c-44eb-ab5a-d38c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a8d0-9eef-a401-163b" name="USS President" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3ee1-7447-d7a5-8cc1" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb2a-91b4-dd8c-2d02" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="058a-60f3-b628-e377" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09fb-8374-bbc5-6be7" name="USS United States" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1980-8d00-1ece-14d3" name="USS United States" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="770b-6779-783e-a6ac" name="USS United States" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b1dd-c3e1-5d56-f8a4" name="USS United States" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9643-46d0-4d45-3025" name="USS United States" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="09fb-8374-bbc5-6be7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="09fb-8374-bbc5-6be7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e389-ac22-1867-3559" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5fb-0609-f8aa-a308">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b1-d846-d0fe-b995" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ac-f2c1-037b-e372" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f5fb-0609-f8aa-a308" name="USS United States" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="08c4-e25e-fa4d-1e42" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5742-dcb5-5be1-0d24" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a37e-85d1-88c4-2f0e" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4b1-40ef-b7d6-e002" name="USS Chesapeake" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0ac2-2ac5-8e8d-d6ca" name="USS Chesapeake" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd45-91ea-e302-0613" name="USS Chesapeake" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4083-3666-a1cd-ba03" name="USS Chesapeake" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4e82-106b-59ad-4d28" name="USS Chesapeake" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="a4b1-40ef-b7d6-e002" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e73e-c354-10a8-19c7" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="6611-d2a3-a09d-a670">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d827-7b29-4c4b-bb0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a4d-6d5b-e589-d380" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6611-d2a3-a09d-a670" name="USS Chesapeake" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1d66-049a-1e5a-192a" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e2-9fc7-a702-8fcd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61ec-9f28-5b28-724e" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="641d-69fa-5d75-89d9" name="USS Congress" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d303-a568-a4de-5dab" name="USS Congress" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bec8-426f-fa1d-fb8a" name="USS Congress" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d366-027b-9104-5a7c" name="USS Congress" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="61c5-6bd4-1f73-a98f" name="USS Congress" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="641d-69fa-5d75-89d9" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="641d-69fa-5d75-89d9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="da8b-97a1-f3c3-37b6" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe65-dc3a-52a4-08ff">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9577-2eb5-8c58-4012" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2898-6e6c-858e-46c3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fe65-dc3a-52a4-08ff" name="USS Congress" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9b15-eb13-5e36-7681" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee8-da03-9f10-1624" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4681-6d49-eb44-6a96" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c21f-5353-e57a-e9e3" name="USS Constellation" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1b2a-636b-13df-5a5c" name="USS Constellation" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6aab-d4d7-d4e2-945d" name="USS Constellation" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="85e4-d0ec-90a6-e1ee" name="USS Constellation" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e02-a9a6-ceaf-4e3c" name="USS Constellation" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="c21f-5353-e57a-e9e3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c21f-5353-e57a-e9e3" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="af87-ae3c-1a33-f731" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="eadd-883a-0c6a-3445">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db41-4955-bd0a-d58c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b859-55b1-f535-e3c3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="eadd-883a-0c6a-3445" name="USS Constellation" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0eb9-6616-8f59-7c3e" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a9c-8431-3c90-237d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cabf-20f4-5470-cc3e" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
