@@ -483,6 +483,120 @@
         <categoryLink id="e30f-14b8-7ff6-7614" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="1255-8c7f-fa05-9651" name="Redoubtable" hidden="false" collective="false" import="true" targetId="f50e-66fe-8f04-d334" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="676a-30fd-ae6c-a185" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7ce9-0c28-2e5c-901c" name="3rd Rate Ships of the Line" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eee4-3d04-83c7-75f4" name="L&apos;Aigle" hidden="false" collective="false" import="true" targetId="c2fd-91e1-49a5-53db" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c51-1952-c71d-5d5d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7587-6110-81a3-838d" name="3rd Rate Ships of the Line" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="677a-a051-30f2-0800" name="Bucentaure" hidden="false" collective="false" import="true" targetId="3640-c31f-cd5e-b19a" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="080c-ec6d-e841-92a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a09e-a198-20f2-a77d" name="3rd Rate Ships of the Line" hidden="false" targetId="f012-1215-6674-ff03" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5dde-45f8-1b1e-9014" name="Comete" hidden="false" collective="false" import="true" targetId="41f3-988e-4691-cfa1" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4329-3485-9364-34f2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0c71-a0ac-cb7e-e750" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="efe2-6c5f-61a8-6496" name="L&apos;Hermione" hidden="false" collective="false" import="true" targetId="3bbb-74f9-da41-f54c" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="313e-f537-81a5-0829" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bd3d-e7ff-9cba-bf35" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b819-5923-9e73-1600" name="Themis" hidden="false" collective="false" import="true" targetId="1821-2200-eb14-139c" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="facb-3d6b-ec2f-0352" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="635c-dce0-886f-af88" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c0a9-5e67-4c92-61c9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0dc3-a24f-3c86-e08c" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="bc22-3f12-7101-de7e" name="Boarding Nets" hidden="false" collective="false" import="true" type="model">
@@ -5100,6 +5214,882 @@
           </constraints>
         </entryLink>
         <entryLink id="cabf-20f4-5470-cc3e" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f50e-66fe-8f04-d334" name="Redoubtable" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e165-7024-03c2-828b" name="Redoubtable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76a9-d330-077a-811c" name="Redoubtable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="56c2-f5c0-431a-c235" name="Redoubtable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f6bc-7371-7db3-66d7" name="Redoubtable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="f50e-66fe-8f04-d334" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="f50e-66fe-8f04-d334" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2f22-02c6-c689-cd23" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e2e-4f78-11cb-a843">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ca8-3b15-39bb-6271" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf7-d2cf-c819-aa48" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9e2e-4f78-11cb-a843" name="Redoubtable" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="280.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f049-8e3c-f092-1eae" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff54-aaa3-9de0-2626" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eb8e-514b-d2fd-ff59" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2fd-91e1-49a5-53db" name="L&apos;Aigle" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1be6-a843-da51-e09b" name="L&apos;Aigle" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df61-cd39-f209-efd6" name="L&apos;Aigle" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a9b0-32cf-a563-dcca" name="L&apos;Aigle" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="60c9-1ca2-be9f-b846" name="L&apos;Aigle" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="c2fd-91e1-49a5-53db" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="c2fd-91e1-49a5-53db" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0222-c177-96f1-39f2" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc84-5cbf-17bc-49b4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b55-df6a-ab59-53d1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbba-d443-d5a6-c179" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fc84-5cbf-17bc-49b4" name="L&apos;Aigle" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="280.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5d65-2e67-7684-2211" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7810-556e-97b6-7fdd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0b16-93a9-51b1-9be2" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3640-c31f-cd5e-b19a" name="Bucentaure" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="69a9-a289-72bd-1f22" name="Bucentaure" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="310a-15c8-dd41-9474" name="Bucentaure" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="98a2-2a82-b27f-9a87" name="Bucentaure" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8671-21e4-4cf2-dbc4" name="Bucentaure" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="3640-c31f-cd5e-b19a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3640-c31f-cd5e-b19a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">25</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d321-b0b5-5201-d0fa" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="7119-bad9-8ffc-bd33">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f9-4b63-75c7-e872" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4d-7f93-0b99-fa0c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7119-bad9-8ffc-bd33" name="Bucentaure" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="280.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4d13-5edc-fc90-33e4" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f038-f74c-87f8-6c32" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3678-f2f3-cfca-5ec1" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41f3-988e-4691-cfa1" name="Comete" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e56a-823d-329e-979a" name="Comete" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="440d-00b7-5902-87ec" name="Comete" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5472-a37c-214f-8931" name="Comete" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="de34-cbf8-a1b9-4b29" name="Comete" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="41f3-988e-4691-cfa1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="41f3-988e-4691-cfa1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f033-5ba2-f446-6441" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="a5fb-adf1-ce78-53b5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa4-8341-231c-2848" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-db4e-f617-6d57" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a5fb-adf1-ce78-53b5" name="Comete" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="56a1-b46a-c599-94f8" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9663-79b4-c57b-3e2b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a35f-ab60-a5eb-1c37" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bbb-74f9-da41-f54c" name="L&apos;Hermione" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f13a-8562-6609-5169" name="L&apos;Hermione" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f4a-7243-71b3-4c58" name="L&apos;Hermione" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="03c7-5e54-5649-4955" name="L&apos;Hermione" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2806-2607-6c6c-2e97" name="L&apos;Hermione" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="3bbb-74f9-da41-f54c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="3bbb-74f9-da41-f54c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="96b4-bebb-aab6-84ef" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a03-6a2f-5959-3890">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5764-f5c4-ff4d-dd0c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b4-aafa-2a8b-ae14" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3a03-6a2f-5959-3890" name="L&apos;Hermione" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d27d-dbaf-8066-3530" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3c-22e1-195d-d7ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7b9c-bce5-f98a-4752" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1821-2200-eb14-139c" name="Themis" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e3ba-6a5d-b21d-3960" name="Themis" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9942-3ef1-c413-55d8" name="Themis" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c6e1-5257-5edf-bef7" name="Themis" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="16f6-e0ab-f14b-7c11" name="Themis" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="1821-2200-eb14-139c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="1821-2200-eb14-139c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fe73-1fd8-a15f-e5c9" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="0855-ae5e-dfb0-2e14">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae7f-0334-06b2-9b54" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6e6-fee2-ac51-aee9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0855-ae5e-dfb0-2e14" name="Themis" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6985-5089-a143-3ad1" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb5-1b83-47f2-3465" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0ae9-f8f0-6701-d0d8" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
