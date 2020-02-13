@@ -331,6 +331,63 @@
         <categoryLink id="42a8-f134-ceda-33fb" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="7b21-0ac5-ebcc-1bdf" name="HMS Indefatigable" hidden="false" collective="false" import="true" targetId="790b-cf1e-7a65-fcf5" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d22-4444-8420-d903" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c24c-2305-2767-9eb2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4246-8a58-c9fc-2733" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df88-74fa-5ffb-1466" name="HMS Euralys" hidden="false" collective="false" import="true" targetId="6316-6a92-deac-b6e8" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d22-4444-8420-d903" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df9d-dfff-96e8-dd8d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b8c-6c9a-b1c1-007b" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7328-f3d9-3d2e-4946" name="HMS Naiad" hidden="false" collective="false" import="true" targetId="79bf-2263-f31e-2e88" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5d22-4444-8420-d903" type="lessThan"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c1f4-0366-2fe2-7a57" value="0.0"/>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b6e-83ea-dee5-94fd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8f8a-35fb-4436-cd91" name="5th Rate Ships of the Line" hidden="false" targetId="fa0b-e5d7-ae87-8cac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="bc22-3f12-7101-de7e" name="Boarding Nets" hidden="false" collective="false" import="true" type="model">
@@ -3780,6 +3837,444 @@
           </constraints>
         </entryLink>
         <entryLink id="44df-e17a-29fc-8efc" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="790b-cf1e-7a65-fcf5" name="HMS Indefatigable" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7c14-e658-dc55-0373" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b00-eaae-00c0-0886" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c5c-efe5-1053-ffbb" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5555-15f0-309b-c2b3" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="790b-cf1e-7a65-fcf5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c072-13c2-3f9a-a3a4" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="efed-9d1b-624c-ab34">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b5f-3526-4ebf-1802" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="661c-208c-6fc1-fbf5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="efed-9d1b-624c-ab34" name="HMS Indefatigable" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b186-c8dd-0db5-c6b2" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a650-2c5c-2646-ea77" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1aef-20d6-e618-bc86" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6316-6a92-deac-b6e8" name="HMS Euralys" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f6e6-662f-de2a-6be7" name="HMS Euralys" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d6c1-f808-fa16-0717" name="HMS Euralys" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e577-a473-955e-af4e" name="HMS Euralys" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="72fb-00cc-b945-986e" name="HMS Euralys" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="6316-6a92-deac-b6e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="6316-6a92-deac-b6e8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ef1-847c-2c1e-e701" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="1644-18c9-c407-1bdf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ff-b7ee-2e22-96ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="471d-bb5a-c861-e634" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1644-18c9-c407-1bdf" name="HMS Euralys" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ea0e-1a20-1509-f2a1" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b0-4d69-2b67-8e7a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="47e8-3556-e548-4cc8" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="79bf-2263-f31e-2e88" name="HMS Naiad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f4a-f806-5962-766c" name="HMS Naiad" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="167a-e1ca-5205-960e" name="HMS Naiad" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b82c-3ba1-5ea2-d421" name="HMS Naiad" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9035-c800-a391-8c18" name="HMS Naiad" publicationId="4400-38ae-29ec-f309" page="72" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="60c7-20c9-2507-ae5b" type="equalTo"/>
+                    <condition field="selections" scope="79bf-2263-f31e-2e88" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4229-1fc9-7c01-8f6f" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
+              <conditions>
+                <condition field="selections" scope="79bf-2263-f31e-2e88" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f0c6-038b-684b-f70d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b62-ab31-2851-55dd" name="1. Vessel" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f66-f289-fd99-5644">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9448-0695-e29b-4d0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8521-cd98-4bfc-89ed" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7f66-f289-fd99-5644" name="HMS Naiad" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0b27-0fd4-7f6a-dccd" name="Upgrades" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a730-8c7e-37e4-d5f0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a162-0d7e-92fc-cfad" name="3. Crew (Reselect after changing Upgrades)" hidden="false" collective="false" import="true" targetId="cf18-a89d-d1ff-98fb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
