@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9521-0728-2941-21f9" name="Generic Fleet" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9521-0728-2941-21f9" name="Generic Fleet" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7886-6dd0-f70a-28d0" name="1st Rate - Generic" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
       <categoryLinks>
@@ -484,7 +484,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">96</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
@@ -513,7 +513,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">96</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
@@ -542,7 +542,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">5H-4L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">96</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
@@ -571,7 +571,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">5H-4L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">96</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
@@ -930,7 +930,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -959,7 +959,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -988,7 +988,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -1017,7 +1017,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -1514,7 +1514,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H-</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">64</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3224,7 +3224,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3253,7 +3253,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3282,7 +3282,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3311,7 +3311,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3370,7 +3370,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3399,7 +3399,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3428,7 +3428,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3457,7 +3457,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3516,7 +3516,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3545,7 +3545,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3574,7 +3574,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-3C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
@@ -3603,7 +3603,7 @@
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-3L-2C</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
