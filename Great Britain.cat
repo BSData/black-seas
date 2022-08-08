@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ff34-474c-192a-0c94" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="feaf-6f73-42b2-171f" name="HMS Agamemnon" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">64</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">22</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b27c-095c-db9e-e02f" name="HMS Agamemnon (Rule 1)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
+          <description>Once per activation, HMS Agamemnon can sail an extra inch.</description>
+        </rule>
+        <rule id="d47a-294d-3430-0e00" name="HMS Agamemnon (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
+          <description>Agamemnon starts any game with 6 Ship Points fewer than its maximum total, which can be repaired during a game.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="347a-0e65-fae1-e2d2" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="14b8-0584-d77a-dd3f" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5b95-6052-2191-052f" name="HMS Agamemnon" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="889a-feac-c19e-dbc3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="238e-0336-ffc4-a845" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="250.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d55d-567d-b7bb-6e23" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0d2-9bc1-6cb3-7639" name="HMS Bellerophon" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e5eb-3704-0e97-e2b2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c331-49e8-e21f-0696" name="HMS Bellerophon" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">84</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">28</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6e4c-ec34-12d6-1b0a" name="HMS Bellerophon" publicationId="4400-38ae-29ec-f309" page="79" hidden="false">
+          <description>For every successful hit scored against her, roll a D6. On a result of 5 or 6, Bellerophon takes no
+damage from that hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dcfd-f219-9ffc-bac3" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2362-e54e-e6eb-3a05" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="48c6-4bb8-4e2a-55a1" name="HMS Bellerophon" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3adf-4e10-ff38-c734" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f52b-6fdd-2145-6f98" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="360.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a88a-77a9-4809-fb45" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d388-4f74-5ede-0e9d" name="HMS Colossus" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5723-79ca-0c43-32f5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8361-6c43-9c98-57e7" name="HMS Colossus" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">74</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">24</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4c92-6c66-e70a-d86b" name="HMS Colossus" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
+          <description>Colossus does not suffer any penalties for shooting her third- and fourth-gun positions</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="99df-6c7c-3d03-875d" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="422f-5af6-65af-6d29" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="81ca-a4d3-7c34-16fc" name="HMS Colossus" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb36-9a4e-82a7-c0ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45ba-8147-d56b-46b8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="290.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0cd9-7a56-cd5e-cc10" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5383-c912-aa49-0398" name="HMS Naiad" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c72-653c-e627-1697" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6d09-166f-db68-8314" name="HMS Naiad" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-1L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">36</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d1b6-5dec-f0a0-0e88" name="HMS Naiad (Rule 1)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
+          <description>A ship that rolls to Strike the Colours due to direct action of the Naiad will have to re-roll if the first roll was successful. The player must accept the second result.</description>
+        </rule>
+        <rule id="87fe-7f2e-715e-c5f0" name="HMS Naiad (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
+          <description>Once per game, a player may declare a repair action on the Naiad and still shoot and move as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5c12-77e8-c240-337c" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5347-573d-8c6d-9c1a" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="736f-52cb-ddf3-86ad" name="HMS Naiad" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75f3-2aab-9075-b14f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae14-dc07-c0ef-4188" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="160.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6115-88bb-e9ec-a085" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da7b-96ac-76dc-35ca" name="HMS Victory" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9153-b065-9076-d35f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f59-567c-05e4-6d37" name="HMS Victory" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">4H-4L-3C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">115</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="84c6-5818-caad-328f" name="HMS Victory" publicationId="4400-38ae-29ec-f309" page="79" hidden="false">
+          <description>HMS Victory and all ships within 20&quot;, gain a +1 to the dice roll of all Skill Tests.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="cf03-9640-b7e9-84a6" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cda4-a731-18a0-9d83" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="587c-17aa-a59d-fd95" name="HMS Victory" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b23-792f-4ceb-1f50" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f7b8-5b1a-b77b-2354" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="550.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="11bd-bf5f-e36e-a87b" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e79f-4f4f-0283-87e8" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e77f-c852-f553-9036" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff0b-d141-8496-da16" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="e7f9-ae92-e508-ceb9" name="Drilled" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <description>British ships receive a +1 to hit modifier when shooting.</description>
+        </rule>
+        <rule id="b86b-6a66-17dc-3b1d" name="The Admiralty" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <description>Each British ship can re-roll one failed Skill Test per game. You must accept the re-rolled result.</description>
+        </rule>
+        <rule id="c134-cdf1-8404-bd68" name="Tacking Proficiency" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <description>All Royal Navy ships receive a +1 when rolling a Skill Test for tacking.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a107-8fcc-53a6-c8d3" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0c38-f6f8-079e-5b93" name="National Special Rules" hidden="false" collective="false" import="true" targetId="2393-88e6-6fb2-12d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7ecf-c560-104b-b05e" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7ddd-8d0d-73d2-1346" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="08c7-2d90-c15a-de77" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="6c6e-190e-f942-d740" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1160-6093-f765-7b27" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="52b6-8bce-033d-160b" name="2nd Rate" hidden="false" collective="false" import="true" targetId="4bad-abd8-8743-84e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="621b-bfde-02df-4324" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="422e-3a18-2acc-dd11" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="0997-2073-2997-db95" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="9cca-abfa-7fd7-1d90" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2b7e-d25b-c5f8-153d" name="3rd Rate (Large)" hidden="false" collective="false" import="true" targetId="97a2-1cff-c1ab-c915" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="26dd-2e6d-d991-121f" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f8e-dd2d-4649-f198" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="73e7-f8a9-29e2-3310" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a0c8-f5ca-73b4-4932" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d71d-5835-cc13-ed16" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" targetId="9af3-3a0d-17e3-0b14" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d727-6190-f3d8-bcfc" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9d97-cb47-c645-7c0e" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="b77c-739d-ab3a-6e5e" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5d70-ad00-9c85-01d0" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2e42-90f7-81d7-d442" name="3rd Rate (Small)" hidden="false" collective="false" import="true" targetId="3bb3-9779-d91b-efc8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9235-1b9b-a376-2f68" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0b8a-b09f-0ea2-e56e" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="9480-0caa-b7f0-9d1b" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4f52-1cf4-d9c2-bad4" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="379b-17d1-e00f-3c15" name="4th Rate" hidden="false" collective="false" import="true" targetId="4b95-6630-7b1d-33b8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c6e9-d3e3-38c1-beaf" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fd74-5cc8-a180-22aa" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="7539-43c6-4322-77a4" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="de61-0d7c-c81d-5281" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e103-4afd-00eb-0136" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" targetId="2334-6787-3a8d-f3ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1757-9192-ef0f-fe1f" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed83-5091-c02f-4d31" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="4eb0-ecb3-5e1e-4190" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="52f6-0479-71a8-5bfc" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a498-0d59-b3da-3843" name="5th Rate" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="25f2-d652-07d9-b3e4" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f1ae-ee17-64b9-d842" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="1da8-7995-175d-81cd" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="8b9a-ff77-4e74-015d" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7259-dea5-624e-f7e1" name="6th Rate" hidden="false" collective="false" import="true" targetId="a120-b934-6963-b4b3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6474-24f6-7e21-bcff" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3eb1-e045-8bec-b12a" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3f5c-abcb-cee4-c1af" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="47cf-8544-ecf3-1b30" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="019f-065f-3634-eb86" name="Barque" hidden="false" collective="false" import="true" targetId="9e61-60e2-3796-19f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f119-1e77-6442-2903" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dd32-c3b9-6a01-8113" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ea3b-b94d-0aca-dd4d" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2e78-2e45-0c4d-ca7b" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d6e5-5797-e4dd-8b5a" name="Bomb Ketch" hidden="false" collective="false" import="true" targetId="d1b9-f695-83bf-2a47" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c92-39a9-aef7-b6c3" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c928-1d4c-0658-0921" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="78a9-eba2-d1c6-09a2" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e880-2d63-2246-6ecf" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="edf7-380d-7406-d23f" name="Bomb Vessel" hidden="false" collective="false" import="true" targetId="5470-ef41-9bb6-3402" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="08f9-3f0f-29f2-6a58" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d186-5c9d-f230-b9b6" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="46f1-0cf7-7280-a007" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="25d6-24e8-af79-0e58" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f569-a032-d38b-0b1f" name="Brig" hidden="false" collective="false" import="true" targetId="7bb6-9880-ad78-df26" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="73f3-23b9-7a42-4ee9" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4de9-2121-5465-d3fb" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="50a8-dae2-b1c6-5f63" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5a63-4877-48e9-9b45" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="41d2-feff-f277-7f01" name="Cutter" hidden="false" collective="false" import="true" targetId="0da6-3ef1-9cfa-2e11" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="82a3-c2fc-3200-cc2c" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2d07-80d3-75ed-8d8a" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="002c-dae5-5156-21bf" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a60f-ca3a-6261-2c27" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3c99-81cc-a2d1-2dbc" name="Cutter (Small)" hidden="false" collective="false" import="true" targetId="9a56-4d24-336e-2953" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="08e3-a8de-fd04-cc47" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c7e2-66a1-d9c7-5994" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="4839-b525-11b7-cd49" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="2510-1b1d-1311-8c66" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="bec3-a004-e9f9-5ffd" name="Fireship" hidden="false" collective="false" import="true" targetId="9b79-e4bb-3a20-31ef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2550-6c93-286f-5b28" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1eb3-b6ad-dc09-052c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ea6e-fc28-f4de-6a5d" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d023-1748-d28b-22bb" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f314-d2cc-64cd-72ec" name="Floating Battery" hidden="false" collective="false" import="true" targetId="b8b6-7079-7c34-10ef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ac78-862e-2c39-591d" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3f2d-618e-70b8-e303" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="09df-8f4f-fa70-f91e" name="Galleon" hidden="false" collective="false" import="true" targetId="432b-3429-ae8d-81df" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="de17-beb4-7928-4675" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7772-a3b9-f499-3846" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="a631-89f3-47eb-4ed8" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5fb6-2f80-6db9-8859" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e563-8ef1-9288-a8f4" name="Galley (Large)" hidden="false" collective="false" import="true" targetId="3b7e-49d6-22ab-4615" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0468-3858-38c5-c4ac" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3afb-41cb-a4fe-3972" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ebe0-f1b8-af5f-be64" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ab3e-6e22-c416-c014" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e57a-d75c-fe31-0ec9" name="Galley (Small)" hidden="false" collective="false" import="true" targetId="f1b0-8cd1-b82e-6dcf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0afa-2b36-434f-ad7f" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3fb9-4b6d-710b-fd47" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="94a5-374f-92fd-5a3b" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="a837-69ac-b868-b4cd" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="64ba-d102-0ebe-94d1" name="Gunboat Squadron" hidden="false" collective="false" import="true" targetId="3485-71bb-9b3b-0be4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="727b-bd66-0912-fa93" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f416-a528-6fb8-972d" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="b048-cc17-85ff-168b" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e880-b09b-093e-959e" name="Gunbrig Squadron" hidden="false" collective="false" import="true" targetId="3d1d-521a-cfa2-f96c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b14-f2ef-9ba2-a3f8" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bcaf-0501-61d4-4418" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="4ba4-e9b0-d342-8efa" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d26b-3849-4db0-e0a0" name="Large Gunbrig" hidden="false" collective="false" import="true" targetId="caaa-ee3d-cdf7-3cdd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a208-5992-2c24-9a00" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7aa0-e695-6b28-8bff" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="8d68-5b23-3789-646c" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="607a-16b8-c4b7-fc15" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="986e-5a54-0bd2-11f0" name="Martello Tower" hidden="false" collective="false" import="true" targetId="f5cb-eebe-eded-de98" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8df2-818d-6781-dd8b" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d7a3-65ee-b247-3cf7" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="bc35-d41d-a24e-6058" name="Merchant (Large)" hidden="false" collective="false" import="true" targetId="e2c0-ce7d-7240-a845" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f155-b4bd-f07e-8c9e" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="00fe-9d79-5a83-2fce" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e4a5-c9cb-6dbf-2744" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="612b-e7a5-2cf2-3fd6" name="Merchant (Small)" hidden="false" collective="false" import="true" targetId="2897-f838-87ac-7b53" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b8f6-f267-746d-5d06" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b82f-01c8-8ea9-2985" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b117-6b78-f76e-cb23" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4474-ec8e-262e-6db5" name="Schooner" hidden="false" collective="false" import="true" targetId="9ab6-bc2e-aec5-6951" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2822-804a-3ddd-25f1" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6871-3053-3980-c435" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="d9d1-27d6-53c4-ea95" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e464-0adb-2c49-b73c" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="63b4-6e17-72b1-d66b" name="Shore Fortress" hidden="false" collective="false" import="true" targetId="dec0-1869-41a7-262d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b773-f5c7-7c7a-fca0" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="255c-b1c1-b29d-63bc" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1f96-4bd8-2b25-ebd9" name="Shore Mortar Emplacement" hidden="false" collective="false" import="true" targetId="09c4-ddc6-3908-569f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="342a-bb33-6af0-ec8b" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c96d-f4f8-6cb4-8ea9" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="68bd-c775-8af3-5e54" name="Sloop" hidden="false" collective="false" import="true" targetId="2f41-7c10-013b-4ad9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9986-ca3d-e4d4-ebc0" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="36d0-397b-180e-59c8" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="af1d-4153-51d2-9da0" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ba7e-581c-3a5a-3bc1" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7808-308f-a268-387f" name="Xebec (Large)" hidden="false" collective="false" import="true" targetId="2667-0784-2c3a-329a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5150-3ce6-9a7b-7efa" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0d94-ea83-58df-6503" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="b72a-f035-0ec5-4c2f" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="17f0-d631-4eac-a793" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6977-84b2-e4c6-7dba" name="Shore Gun Emplacement" hidden="false" collective="false" import="true" targetId="2d67-c001-1f52-f720" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5161-7db4-bf3e-97a7" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dac2-60eb-2849-aa37" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="93cf-51c6-69f0-7fea" name="HMS Speedy" hidden="false" collective="false" import="true" targetId="41db-a90d-359c-3a9b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="94a5-afb6-5425-8ba9" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6b5-1002-9141-b3ea" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="89ea-38bf-7583-08d3" name="HMS Surprise/Unité" hidden="false" collective="false" import="true" targetId="258e-012a-039f-8840" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="name" value="HMS Surprise"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="6c6a-c187-775f-ddb3" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="74d3-29cb-f786-df90" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="96e3-5305-1076-2e12" name="Tonnant" hidden="false" collective="false" import="true" targetId="3ce1-0c1b-6c36-9e63" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a65-5153-bdb6-5ee7" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="98f8-48d9-7e5d-0bf4" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3dbd-4e0c-b2c0-7c64" name="USS Chesapeake" hidden="false" collective="false" import="true" targetId="07a1-8142-21e8-a242" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="7c1d-8b39-a68c-ae79" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4742-ae9a-61ea-6c9c" name="Special Characters" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df53-0fe0-be21-045c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6016-c930-51c9-9bf5" name="Admiral Lord Edward Pellew" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccf9-2969-2113-6751" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4eb4-b378-23ee-cbf4" name="Admiral Lord Edward Pellew (Rule 1)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>Re-roll one Skill Test per Turn, you must accept the second result.</description>
+            </rule>
+            <rule id="919b-99e7-a244-4f3c" name="Admiral Lord Edward Pellew (Rule 2)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>The ship will never Strike the Colours no matter the circumstances. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec93-2dce-74e9-3813" name="Admiral Lord Horatio Nelson" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b1-b568-0b10-ce6c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="97ec-f6af-dfe4-b739" name="Admiral Lord Horatio Nelson (Rule 1)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>Every British ship within 20&quot; of Nelson’s ship, including his own, gains a +1 to the dice roll of every Skill Test.</description>
+            </rule>
+            <rule id="6774-1bb6-f9b4-2ceb" name="Admiral Lord Horatio Nelson (Rule 2)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>The ship will never Strike the Colours no matter the circumstances.</description>
+            </rule>
+            <rule id="a15b-c15d-c703-2d00" name="Admiral Lord Horatio Nelson (Rule 3)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>Once per Turn, each gun position on the ship Nelson is commanding can re-roll one dice that fails its to hit roll.</description>
+            </rule>
+            <rule id="ccef-119d-555f-f113" name="Admiral Lord Horatio Nelson (Rule 4)" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>If the ship Nelson is commanding takes damage from musket fire from a ship with the Sharpshooters upgrade (see page 35 and 75), roll a D6. On a result of 1 or 2, Nelson dies; his special rules have no further affect on the game.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a3a-d953-44ea-9f3e" name="Admiral Cuthbert Collingwood" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16fb-f25b-c9a8-6138" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8397-fe49-7bd7-7cf7" name="Admiral Cuthbert Collingwood" publicationId="4400-38ae-29ec-f309" page="78" hidden="false">
+              <description>Every British ship within 10&quot; of Collingwood, including his own, can re-roll the first broadside it shoots. All dice are re-rolled and the second result must be accepted</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3cc9-f024-1a89-7b9d" name="Thomas Cochrane" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3ecc-eceb-d9e3-661a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="dc8a-86f9-7913-083c" name="Thomas Cochrane (Rule 1)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>A ship that has Cochrane on board starts the battle with a different flag to the rest of the fleet. It cannot be targeted until aftyer it opens fire on an enemy ship.</description>
+            </rule>
+            <rule id="ea22-b889-7572-8da9" name="Thomas Cochrane (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>A ship commanded by Cochrane gets an extra +1C when firing broadside at any ship one rate higher. It gets an extra +1C and +1H when firing on a ship two rates or more higher.</description>
+            </rule>
+            <rule id="2b54-793b-0076-9626" name="Thomas Cochrane (Rule 3)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>Cochrane favoured a direct approach. Whenever possible and only if the enemy is more than 8&quot; away from his ship, Cochrane must steer his ship towards an enemy vessel.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="851d-9258-57df-a22e" name="Captain Richard Hall Gower" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e10d-db67-b20c-6537" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3749-faa3-16f8-f6ff" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8363-e9a8-2a18-ec78" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5138-db11-67ea-029c" name="Captain Richard Hall Gower (Rule 1)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>Captain Gower can only be used on merchant ships.</description>
+            </rule>
+            <rule id="793e-2ac8-56d3-b526" name="Captain Richard Hall Gower (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>The ship gains a Veteran crew at no cost.</description>
+            </rule>
+            <rule id="653e-6405-a876-e80b" name="Captain Richard Hall Gower (Rule 3)" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false">
+              <description>Once per activation, a ship with Gower on board can sail an extra inch.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3576-27db-829e-ee23" name="Captain George Duff" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d28e-94f8-ab96-16dd" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="0df9-dfe2-d726-fba9" name="Captain George Duff" publicationId="600d-46bd-39bc-a54b" page="45" hidden="false">
+              <description>+1 to all Skill Tests.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
