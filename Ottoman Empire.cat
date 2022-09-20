@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6498-1bed-22d0-9393" name="Ottoman Empire" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="a962-a424-b0f9-7d6c" name="Masudita" page="" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fb9-0c48-f31b-65d6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="953b-c7ef-8334-497b" name="Masudita" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">XL</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">6H-4L-2C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1H</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">120</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Yellow</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">3</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">40</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0fe8-5624-8afe-f1b7" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca4b-9530-751b-b451" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="045f-c103-23cc-2b65" name="Masudita" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b1d-e8d5-d4d3-54a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5cd9-6e27-eaf7-9902" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="500.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="92a0-4b2d-f654-c736" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4741-090b-2c7f-73b6" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0f8-e8c1-23e6-df0f" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e938-6236-d02f-4604" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="430b-f267-ab13-bfa0" name="Oars Everwhere" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <description>All ships of 4th rate and lower can use the Advanced Rule Moving Under Oars</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8fb1-fe57-42e6-2146" name="National Special Rules" hidden="false" targetId="4d4b-1241-6d87-85a1" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7ab9-2d58-2436-14ca" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5329-04bc-a0b7-9182" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccba-e864-1b6f-aea4" name="National Special Rules" hidden="false" collective="false" import="true" targetId="2393-88e6-6fb2-12d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="cbaa-4136-ee2f-481b" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9302-163b-ee3f-573f" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0a54-67a8-e308-0032" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="d189-89b0-9820-2bb9" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="64ab-874f-c9e1-a1f5" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2740-e443-7f22-39b1" name="2nd Rate" hidden="false" collective="false" import="true" targetId="4bad-abd8-8743-84e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d679-eeaa-6a5f-9af5" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c38b-f7eb-2841-8be6" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="2537-d9c3-f567-b713" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="4.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="6dde-fba7-07a8-280d" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9c25-feab-9402-596c" name="3rd Rate (Large)" hidden="false" collective="false" import="true" targetId="97a2-1cff-c1ab-c915" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fbf7-6ecf-a084-fb8f" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="662e-8044-b495-98b4" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3369-6249-e0be-cec7" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="53f8-ffa5-3d5e-0c98" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3071-d323-241e-0466" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" targetId="9af3-3a0d-17e3-0b14" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8db4-7caf-fe55-6c12" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f158-fe39-71ad-2119" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="4984-76a6-17e7-76cb" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="92ca-18dd-554c-d5a2" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="209e-45d6-8f26-05eb" name="3rd Rate (Small)" hidden="false" collective="false" import="true" targetId="3bb3-9779-d91b-efc8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1ef2-a6b7-2ee0-8bec" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0677-f7a4-f36d-8b04" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="8e45-b948-ef8c-45dc" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="36a1-0e92-cc87-b5eb" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="be3d-c1c1-04ce-f2e1" name="4th Rate" hidden="false" collective="false" import="true" targetId="4b95-6630-7b1d-33b8" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="e417-ccd4-4b9b-c34d" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a720-680d-83e2-74ab" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="af7b-4231-a085-3f87" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ae67-3217-9e58-02f8" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="520c-971d-a426-4886" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9545-4b1e-6796-48b1" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" targetId="2334-6787-3a8d-f3ba" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="9674-2535-4fe3-e9a1" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="83cc-4716-34af-891b" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="be6b-9e8e-a330-596c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="aa1c-c1ea-6426-d2a7" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="e651-10fd-72e5-8118" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7d6b-3d5d-6ca0-19d2" name="5th Rate" hidden="false" collective="false" import="true" targetId="5536-64cc-de6c-fda3" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="a788-b355-ddae-a862" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bfb0-56f0-64a6-ec26" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3246-69ba-b02b-6bc4" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="d9ce-a19b-865d-a3d6" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="28f4-0c85-1017-6c18" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4f4a-6527-708f-4987" name="6th Rate" hidden="false" collective="false" import="true" targetId="a120-b934-6963-b4b3" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="fdfb-8e50-885a-b2e7" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b1c5-2c27-3573-52b2" name="New CategoryLink" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="353a-9c51-7451-b62c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="41a1-5b67-13bb-7e96" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="23b8-d572-7c2d-6552" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a78c-dff4-4613-5959" name="Barque" hidden="false" collective="false" import="true" targetId="9e61-60e2-3796-19f0" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="672a-5100-79b8-cd3a" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7a30-054a-baea-5d4d" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="710c-e372-e687-74e5" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3318-9410-f659-186f" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b0bc-9aac-2622-8396" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="33dd-59ae-17a0-cd78" name="Bomb Ketch" hidden="false" collective="false" import="true" targetId="d1b9-f695-83bf-2a47" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="066d-0047-44b1-1202" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c784-52f2-3bef-08e6" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="072a-4628-ad97-578f" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="a61d-a1c8-3817-6745" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="d8d7-438e-3933-e872" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="39fd-8756-e7bd-3db9" name="Bomb Vessel" hidden="false" collective="false" import="true" targetId="5470-ef41-9bb6-3402" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5c2a-76ff-6f25-a1bb" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5dbb-3059-3d59-de6e" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="fe37-669b-150f-2c5f" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b28e-2879-a096-055b" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="677c-b269-c400-67c2" name="Brig" hidden="false" collective="false" import="true" targetId="7bb6-9880-ad78-df26" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="e47b-a92a-2aed-09c2" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d88-3a38-200a-dc92" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d918-fe95-a527-5409" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="8087-edf7-be41-c9ec" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="632e-6581-30d4-6d8a" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0c24-95b3-fafd-7824" name="Cutter" hidden="false" collective="false" import="true" targetId="0da6-3ef1-9cfa-2e11" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="66aa-9209-70ca-7fe9" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b5b-488f-1348-c97e" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3512-177b-4897-0b92" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3b4a-9ea9-9de8-664b" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="aca4-34c4-54e8-791a" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f8ca-efe6-96d7-4c1e" name="Cutter (Small)" hidden="false" collective="false" import="true" targetId="9a56-4d24-336e-2953" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="b0aa-18d9-caa7-d0dc" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3978-e11a-ec2d-8401" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7a01-05c8-cbfc-4ca4" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="b281-56ce-c3c2-fdb0" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="218a-f806-8a0c-6b08" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="abea-fcad-a9af-80ae" name="Fireship" hidden="false" collective="false" import="true" targetId="9b79-e4bb-3a20-31ef" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="e7ed-92bf-4437-c09c" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cfa9-a5cf-fb17-37a1" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fa8b-dbd6-6d5d-0644" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3ee0-dbf4-7b9e-b4e8" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4fe9-5934-54f3-649e" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d38b-6080-2851-ad9a" name="Floating Battery" hidden="false" collective="false" import="true" targetId="b8b6-7079-7c34-10ef" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b5fc-2247-1a2f-f95c" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9f4f-dc91-41e0-be2e" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9f3a-c132-38bb-82de" name="Galleon" hidden="false" collective="false" import="true" targetId="432b-3429-ae8d-81df" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="8325-f43e-64d5-f9e1" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="da89-2580-8788-b5f9" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9495-1836-cf50-70cc" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="7f03-b6b1-5452-5ea8" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="4874-191d-742d-c299" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0098-45a0-1e11-2aea" name="Galley (Large)" hidden="false" collective="false" import="true" targetId="3b7e-49d6-22ab-4615" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fad7-692f-24ad-e104" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5998-39e8-f0af-c77c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="a823-46c4-e703-bdda" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="c20b-7b77-a355-0be4" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="714e-f17e-cc6e-eb7f" name="Galley (Small)" hidden="false" collective="false" import="true" targetId="f1b0-8cd1-b82e-6dcf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="722c-7921-d064-528e" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0973-0ac2-c166-4bef" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="c1b4-823a-0c6b-d222" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="b9eb-e003-0090-6d58" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cecf-8dfd-737f-2c3f" name="Gunboat Squadron" hidden="false" collective="false" import="true" targetId="3485-71bb-9b3b-0be4" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="dbd1-747e-1ead-7bec" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb82-54ee-0c85-a86b" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="98da-53d6-679e-07f3" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="3877-2f89-cbb2-9b02" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="243d-27e9-4613-389b" name="Gunbrig Squadron" hidden="false" collective="false" import="true" targetId="3d1d-521a-cfa2-f96c" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0870-463a-187f-382d" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4835-dcd6-c0de-a7d0" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ce02-6753-ecec-a3fe" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="9b1b-609a-621c-ba21" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6ef6-600c-2510-d4e3" name="Large Gunbrig" hidden="false" collective="false" import="true" targetId="caaa-ee3d-cdf7-3cdd" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="1d50-6e0e-9ec4-5244" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="59aa-0739-3f3a-aae4" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4f89-8876-6877-e959" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="eff7-9ce5-fff0-4a90" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="369f-8ae3-078f-5681" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1b3c-6187-415c-419a" name="Martello Tower" hidden="false" collective="false" import="true" targetId="f5cb-eebe-eded-de98" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f18-21ae-63e8-cd91" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="94d4-ad19-0197-af80" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b8c1-00b2-d18f-6859" name="Merchant (Large)" hidden="false" collective="false" import="true" targetId="e2c0-ce7d-7240-a845" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="a511-7c24-7799-2332" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="231a-3c62-9767-aeae" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9ae8-113a-b3cd-258d" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="3.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="addf-6a4a-2b5f-a9c1" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="77d7-15af-952a-a787" name="Merchant (Small)" hidden="false" collective="false" import="true" targetId="2897-f838-87ac-7b53" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="da30-cf31-a0ed-b61d" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3174-2e2b-46f4-bcdd" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d1da-62a1-4de2-1a5e" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="2.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1085-93e2-554d-3430" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ebae-baf8-c73a-2077" name="Schooner" hidden="false" collective="false" import="true" targetId="9ab6-bc2e-aec5-6951" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="a578-1c4e-c8cb-bfdb" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="523a-8688-e0e1-96c4" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0f63-8560-8d55-a6ea" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="cf5a-3305-f023-9345" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5021-8146-2c7a-8d69" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2e6f-fbf6-22d0-925f" name="Shore Fortress" hidden="false" collective="false" import="true" targetId="dec0-1869-41a7-262d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6c50-d9e8-49f9-1f81" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d418-f48b-189c-a8c9" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cf1f-f66a-840e-7758" name="Shore Gun Emplacement" hidden="false" collective="false" import="true" targetId="2d67-c001-1f52-f720" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9a13-1c5f-395a-2135" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f158-add7-6772-0454" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="34af-226f-2dd7-dcad" name="Shore Mortar Emplacement" hidden="false" collective="false" import="true" targetId="09c4-ddc6-3908-569f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="830d-968b-348b-9a3e" name="New CategoryLink" hidden="false" targetId="d255-30ab-09e1-b0c9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ab9e-49ab-37fc-561c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="d886-0077-c151-9fcf" name="Sloop" hidden="false" collective="false" import="true" targetId="2f41-7c10-013b-4ad9" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="f35b-5ae9-e7cf-84f1" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="306d-25cc-1ffe-2c04" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0e77-ca27-806d-2dc3" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ea0e-4b64-9bac-b1a9" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="3a74-a88a-9923-31d8" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0236-ba5c-ec18-2f28" name="Xebec (Large)" hidden="false" collective="false" import="true" targetId="2667-0784-2c3a-329a" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="b927-41ea-94d8-123c" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c617-a9de-0703-f352" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5e8c-be4e-ed31-2646" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="c45f-b449-eb7b-a8f5" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f4d4-3c73-fa14-27f9" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="aa30-80f5-96cc-2a89" name="Xebec (Small)" hidden="false" collective="false" import="true" targetId="6944-f8c1-77bf-1f8b" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="3c16-1ba0-6a67-14d4" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="equalTo"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="atLeast"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96a6-eb0e-d820-84e2" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5409-1cb9-50e8-2a50" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="6656-ba8e-520b-6948" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="ac40-47ad-964e-cd13" name="Special Characters" hidden="false" collective="false" import="true" targetId="bb61-4aab-395c-d5ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="bb61-4aab-395c-d5ff" name="Special Characters" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e17d-3d20-89d1-3d26" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a5bd-1251-9333-ae90" name="Cezayirli Gazi Hasan Pasha" hidden="false" collective="false" import="true" targetId="c8ed-0a85-9004-4fcb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

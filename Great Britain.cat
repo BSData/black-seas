@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -761,6 +761,20 @@ damage from that hit.</description>
     <entryLink id="3dbd-4e0c-b2c0-7c64" name="USS Chesapeake" hidden="false" collective="false" import="true" targetId="07a1-8142-21e8-a242" type="selectionEntry">
       <entryLinks>
         <entryLink id="7c1d-8b39-a68c-ae79" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="550e-2a99-0fb2-9ca8" name="Xebec (Small)" hidden="false" collective="false" import="true" targetId="6944-f8c1-77bf-1f8b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e854-e291-0649-cb1a" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d494-0ced-d179-fd5c" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="c5c1-e169-8af1-d0e0" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
+        <entryLink id="f560-170a-1fe1-1dc0" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>

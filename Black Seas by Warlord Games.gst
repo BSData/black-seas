@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="12" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="14" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
     <publication id="600d-46bd-39bc-a54b" name="Hold Fast!"/>
@@ -685,7 +686,7 @@
             </modifier>
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
-                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bb2-8885-a14b-7c75" type="equalTo"/>
+                <condition field="selections" scope="97a2-1cff-c1ab-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1902,7 +1903,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
           </characteristics>
         </profile>
-        <profile id="4a9f-5c10-d7db-5e3e" name="Galley (Large)" publicationId="4400-38ae-29ec-f309" page="73" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="4a9f-5c10-d7db-5e3e" name="Galley (Small)" publicationId="4400-38ae-29ec-f309" page="73" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1916,14 +1917,14 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">S</characteristic>
             <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">-</characteristic>
-            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">1L</characteristic>
-            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">2H</characteristic>
-            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">50</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">35</characteristic>
             <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
-            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">5</characteristic>
-            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">17</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">12</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2601,7 +2602,7 @@
             <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">4</characteristic>
           </characteristics>
         </profile>
-        <profile id="4c6e-a4eb-aacb-ba6d" name="Small Xebec - Generic" publicationId="600d-46bd-39bc-a54b" page="89" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+        <profile id="4c6e-a4eb-aacb-ba6d" name="Xebec (Small)" publicationId="600d-46bd-39bc-a54b" page="89" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -3108,7 +3109,7 @@
             </modifier>
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
-                <condition field="selections" scope="9a56-4d24-336e-2953" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                <condition field="selections" scope="9a56-4d24-336e-2953" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3132,7 +3133,7 @@
             </modifier>
             <modifier type="increment" field="23b1-8fff-b6b0-27f6" value="20">
               <conditions>
-                <condition field="selections" scope="9a56-4d24-336e-2953" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3c63-35db-f8f0-c553" type="equalTo"/>
+                <condition field="selections" scope="9a56-4d24-336e-2953" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6021-8f0f-9f64-1a9b" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3521,6 +3522,26 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c8ed-0a85-9004-4fcb" name="Cezayirli Gazi Hasan Pasha" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ab9-2d58-2436-14ca" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="982b-6a2f-afa6-5e0c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="51da-53a4-2797-9027" name="Cezayirli Gazi Hasan Pasha" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false">
+          <description>Once per game, each ship in Hasan Pasha&apos;s fleet may re-roll a single Skill Test</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="be09-0aca-2776-a29b" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" defaultSelectionEntryId="acdc-205d-9e68-d50a">
@@ -3677,28 +3698,37 @@ hit, in boarding actions against merchant ships.</description>
       <description>No malluses or bonuses</description>
     </rule>
     <rule id="da36-a3af-8166-e84a" name="Fore-and-aft rigged sails" publicationId="600d-46bd-39bc-a54b" page="85" hidden="false">
-      <description>If using the standard rules for Wind Attitude, vessels with fore-and-aft rigged sails have a +2 to the Skill Test roll when attempting to tack. If using the more realistic wind effect on movement, use the diagram on page 85 pf the Hold Fast! book instead of the one in the Black Seas rulebook. Ships using fore-and-aft rigged sails also get a +1 on the Skill Test roll when attempting to tack.</description>
+      <description>If using the standard rules for Wind Attitude, vessels with fore-and-aft rigged sails have a +2 to the Skill Test roll when attempting to tack. If using the more realistic wind effect on movement, use the diagram on page 85 of the Hold Fast! book instead of the one in the Black Seas rulebook. Ships using fore-and-aft rigged sails also get a +1 on the Skill Test roll when attempting to tack.</description>
     </rule>
     <rule id="3b0e-e836-dc4e-37fe" name="Sturdy" hidden="false">
-      <description>Add 20 Ship Points to the current total (already included in statline)</description>
+      <description>Add 20 Ship Points to the current total (already included in statline).</description>
     </rule>
     <rule id="9046-550a-d1d4-5d98" name="Shallow Draft" publicationId="600d-46bd-39bc-a54b" page="86" hidden="false">
-      <description>Ignore the terrain rules for sandbanks and shoals/shorelines</description>
+      <description>Ignore the terrain rules for sandbanks and shoals/shorelines.</description>
     </rule>
     <rule id="f2d3-15aa-9093-d8dd" name="Moving under oars" publicationId="4400-38ae-29ec-f309" page="34" hidden="false">
       <description>This ship can use the &quot;moving under oars&quot; rules</description>
     </rule>
     <rule id="f9e2-4f1b-9aac-0ea5" name="Galleys (rule 1)" publicationId="600d-46bd-39bc-a54b" page="85" hidden="false">
-      <description>Galleys not suffer the -2 to hit penalty whilst Moving Under Oars</description>
+      <description>Galleys do not suffer the -2 to hit penalty whilst Moving Under Oars</description>
     </rule>
     <rule id="81da-4413-43ae-96fa" name="Galleys (rule 2)" publicationId="600d-46bd-39bc-a54b" page="85" hidden="false">
       <description>Furthermore, they do not have to spend a full Turn without shooting to switch from Moving Under Oars to sailing</description>
     </rule>
     <rule id="3613-5389-35a5-cfe0" name="Galleys (rule 3)" publicationId="600d-46bd-39bc-a54b" page="85" hidden="false">
-      <description>As the design of a galley was quite aniquated by the period covered by these rules, add +1 to the result when receiving a critical hit. Treat any result above 6 as a 6.</description>
+      <description>As the design of a galley was quite antiquated by the period covered by these rules, add +1 to the result when receiving a critical hit. Treat any result above 6 as a 6.</description>
     </rule>
     <rule id="e4e3-e6c5-d70e-a5a3" name="Galleys (rule 4)" publicationId="600d-46bd-39bc-a54b" page="85" hidden="false">
       <description>Galleys were designed to ram other vessesls, therefore they do not need to test when ramming an opponent (colliding with another vessel head on). The opponent will still test to see if they can avoid the collision. The ramming Galley involved will take half (rounding up) of the damage it would normally take.</description>
+    </rule>
+    <rule id="1efa-94ee-64ab-77ec" name="Awe and Fear" publicationId="600d-46bd-39bc-a54b" page="84" hidden="false">
+      <description>Every activation that this ship wants to engage (in any way) a ship three full ratings or more above their own will first have to pass a Skill Test. When the target is four rates above the active ship, apply -1 to the Skill Test. When five rates above, apply -2 modifier, and when six rates above, apply -3 modifier.</description>
+    </rule>
+    <rule id="4d4b-1241-6d87-85a1" name="Added in Hold Fast!" publicationId="600d-46bd-39bc-a54b" hidden="false">
+      <description>This Navy only has national special rules, famous ships and special characters in the Hold Fast! book.</description>
+    </rule>
+    <rule id="f8d5-ad15-4c8e-89b8" name="Rules of Engagement" publicationId="4400-38ae-29ec-f309" page="35" hidden="false">
+      <description>This ship may not attack smaller ships without passing a Skill Test or unless attacked first. Every Turn in which the larger ship wishes to target its fire at a smaller vessel, it must pass a Skill Test, even if it has previously passed one for this purpose. For the purpose of this rule the Extra Large and Large ships are considered the same size.</description>
     </rule>
   </sharedRules>
 </gameSystem>
