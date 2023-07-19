@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="21ac-b71c-f892-bc18" name="United States of America" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="21ac-b71c-f892-bc18" name="United States of America" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e773-adea-81f9-21e3" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1000,6 +1000,20 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="6a06-2f56-d26b-8f0d" name="Special Characters" hidden="false" collective="false" import="true" targetId="5650-f647-2fc7-fc15" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5ea1-3fda-b5b0-159d" name="Gun Ketch" hidden="false" collective="false" import="true" targetId="28d0-af26-ee20-704d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2fc9-0bac-9f5b-9fef" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9641-8e7b-aa91-8fd1" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="19aa-f7de-3be5-5f6c" name="Special Characters" hidden="false" collective="false" import="true" targetId="5650-f647-2fc7-fc15" type="selectionEntryGroup"/>
+        <entryLink id="ccee-5455-6745-02df" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>

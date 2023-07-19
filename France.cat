@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b02-6c36-6559-58a5" name="France" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b02-6c36-6559-58a5" name="France" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4e41-72ba-33bd-c516" name="Bucentaure" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -704,6 +704,20 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="8bcf-2a1b-3740-4662" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1e26-0478-62fd-1d51" name="Gun Ketch" hidden="false" collective="false" import="true" targetId="28d0-af26-ee20-704d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77e6-6635-5684-55c4" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="28e7-c509-3b42-0c7f" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="ee17-db70-9959-b929" name="Special Characters" hidden="false" collective="false" import="true" targetId="0c37-3de9-89f8-8b60" type="selectionEntryGroup"/>
+        <entryLink id="51fc-5fcb-9c5d-fda5" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>

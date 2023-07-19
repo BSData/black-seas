@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2f27-85e3-728f-5dbf" name="Netherlands/Batavian Republic" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2f27-85e3-728f-5dbf" name="Netherlands/Batavian Republic" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b8a1-1a25-8cb1-892d" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -957,6 +957,20 @@
           </modifiers>
         </entryLink>
         <entryLink id="5f84-56ae-640a-3c43" name="Special Characters" hidden="false" collective="false" import="true" targetId="3182-1be2-e6a9-ef7f" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="fda0-9796-86c8-626e" name="Gun Ketch" hidden="false" collective="false" import="true" targetId="28d0-af26-ee20-704d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca68-e542-a85c-0644" name="New CategoryLink" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="45ef-1dbd-7722-06cf" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="4efb-64e5-69c7-acfe" name="Special Characters" hidden="false" collective="false" import="true" targetId="3182-1be2-e6a9-ef7f" type="selectionEntryGroup"/>
+        <entryLink id="b12c-bd56-1760-49ce" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -318,6 +318,53 @@ damage from that hit.</description>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0c38-f6f8-079e-5b93" name="National Special Rules" hidden="false" collective="false" import="true" targetId="2393-88e6-6fb2-12d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0143-a5a1-0a76-2bf9" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a1d-4cdd-49a9-5fae" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="22d9-6e80-0164-c9b8" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="79" hidden="false" typeId="e74f-36c4-f6af-88e0" typeName="Ship">
+          <characteristics>
+            <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">M</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">2H-2L-1C</characteristic>
+            <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
+            <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1L</characteristic>
+            <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">60</characteristic>
+            <characteristic name="Turn Angle" typeId="ea66-0fb7-db52-0ee8">Red</characteristic>
+            <characteristic name="Rate of Knots" typeId="4593-98e1-47df-309f">4</characteristic>
+            <characteristic name="Break Value" typeId="2d15-4231-1f06-84a0">20</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e5b6-1c5c-7c6f-7bc6" name="HMS Indefatigable" publicationId="4400-38ae-29ec-f309" page="79" hidden="false">
+          <description>If a ship takes damage from HMS Indefatigable and is below half its original Ship Points, it must immediately take a Strike the Colours test with a -1 modifier.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="cfe5-5d6e-f10a-8ea4" name="Veteran Crew" hidden="false" targetId="d5aa-8236-15e1-7b35" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b918-dc56-40d2-9e77" name="New CategoryLink" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="84b6-575c-60c0-7eab" name="HMS Indefatigable" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e025-619d-5d9c-de05" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec84-9f0e-bd5e-9004" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="240.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="234b-6435-24ce-843f" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0.0"/>
@@ -775,6 +822,20 @@ damage from that hit.</description>
           </modifiers>
         </entryLink>
         <entryLink id="f560-170a-1fe1-1dc0" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3765-e88c-1a5b-cdc5" name="Gun Ketch" hidden="false" collective="false" import="true" targetId="28d0-af26-ee20-704d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="83b3-7431-0467-673c" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="29a6-e980-7e5a-ac20" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" targetId="be09-0aca-2776-a29b" type="selectionEntryGroup"/>
+        <entryLink id="1651-75cd-a264-2f68" name="Special Characters" hidden="false" collective="false" import="true" targetId="4742-ae9a-61ea-6c9c" type="selectionEntryGroup"/>
+        <entryLink id="7071-8d14-a498-fe05" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true" targetId="8b5c-d52b-7870-74b0" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="9a39-07d3-6e35-b5d1" value="1.0"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </entryLink>
   </entryLinks>

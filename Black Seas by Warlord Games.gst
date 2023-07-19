@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="14" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="15" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -1329,7 +1329,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d045-3749-1d73-f08f" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2937,7 +2937,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a41c-a8d9-eb48-b9f7" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="190.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="200.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
