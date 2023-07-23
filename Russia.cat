@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2e6b-f2b0-660f-3a4e" name="Russia" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2e6b-f2b0-660f-3a4e" name="Russia" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="75ac-dbef-69a6-3a5f" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1768,7 +1768,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8df3-0940-8dfb-de2e" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="190.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="200.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2238,7 +2238,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2728-a24d-019a-6078" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="80.0"/>
+            <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
