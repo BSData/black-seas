@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dc86-8c05-a470-db5c" name="Sweden" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dc86-8c05-a470-db5c" name="Sweden" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="125d-1f9a-b31d-2a32" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -527,14 +527,27 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="8f55-8234-a233-a89c" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3975-078a-8d52-1468" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="060b-1b5f-d00c-2636" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="060b-1b5f-d00c-2636" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="70c1-19cf-10b4-b21d" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8333-5ad6-d5be-f9bc" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70c1-19cf-10b4-b21d" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b26e-50ce-bada-0474" name="Admiral Johan af Puke" publicationId="600d-46bd-39bc-a54b" page="65" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b26e-50ce-bada-0474" name="Admiral Johan af Puke" publicationId="600d-46bd-39bc-a54b" page="65" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>

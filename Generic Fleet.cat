@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9521-0728-2941-21f9" name="Generic Fleet" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9521-0728-2941-21f9" name="Generic Fleet" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="7886-6dd0-f70a-28d0" name="1st Rate" hidden="false" collective="false" import="true" targetId="d273-1a5d-79fc-d725" type="selectionEntry">
       <categoryLinks>
@@ -405,6 +405,11 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+    </entryLink>
+    <entryLink id="f2a2-ca59-c687-2325" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1212-b781-3bb4-c332" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

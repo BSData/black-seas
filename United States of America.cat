@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="21ac-b71c-f892-bc18" name="United States of America" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="21ac-b71c-f892-bc18" name="United States of America" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e773-adea-81f9-21e3" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1016,6 +1016,11 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="2e1f-13a5-d741-e696" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f131-23c1-1e85-4afd" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="00fc-a7b5-085d-f60e" name="USS Essex" hidden="false" collective="false" import="true" type="model">
@@ -1030,12 +1035,20 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="5650-f647-2fc7-fc15" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5650-f647-2fc7-fc15" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="13ba-1a5d-265a-4130" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c07d-050c-d722-ca27" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13ba-1a5d-265a-4130" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="f289-1ff7-550b-f2a1" name="Commodore Stephen Decatur" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f289-1ff7-550b-f2a1" name="Commodore Stephen Decatur" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f027-2a10-23ff-9e70" type="max"/>
           </constraints>
@@ -1048,7 +1061,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c16b-e5f7-da9c-06e3" name="Captain James Lawrence" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c16b-e5f7-da9c-06e3" name="Captain James Lawrence" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f09c-28d0-8943-fe46" type="max"/>
           </constraints>
@@ -1061,7 +1074,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1262-3184-33b2-ef8e" name="James Lawrence" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1262-3184-33b2-ef8e" name="James Lawrence" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1084,7 +1097,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="15d1-c6d1-31f6-7188" name="Oliver Hazard Perry" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="15d1-c6d1-31f6-7188" name="Oliver Hazard Perry" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9118-3016-eeab-66aa" type="max"/>
           </constraints>
@@ -1116,9 +1129,14 @@
         <entryLink id="e45d-8684-d3e1-e867" name="Over Gunned" hidden="false" collective="false" import="true" targetId="9bb2-8885-a14b-7c75" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7d88-7913-6ca0-ac33" value="80.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b92e-52ee-4314-27e6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -1133,9 +1151,14 @@
         <entryLink id="c412-841b-7c46-36e8" name="Sturdy" hidden="false" collective="false" import="true" targetId="6021-8f0f-9f64-1a9b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7d88-7913-6ca0-ac33" value="40.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b92e-52ee-4314-27e6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>

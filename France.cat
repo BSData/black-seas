@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b02-6c36-6559-58a5" name="France" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b02-6c36-6559-58a5" name="France" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4e41-72ba-33bd-c516" name="Bucentaure" page="" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -720,14 +720,27 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="8656-87d9-77ef-53d0" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7c77-efb0-29a3-ba49" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="0c37-3de9-89f8-8b60" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0c37-3de9-89f8-8b60" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="52b4-2bc3-e9ca-b3ac" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4d3-746b-1c3b-0795" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="52b4-2bc3-e9ca-b3ac" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b593-ae22-58bc-1993" name="Admiral Pierre-Charles-Jean-Baptiste de Villeneuve" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b593-ae22-58bc-1993" name="Admiral Pierre-Charles-Jean-Baptiste de Villeneuve" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="af64-1bb8-dc4a-267e" type="max"/>
           </constraints>
@@ -740,7 +753,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0e79-c79a-08a1-c046" name="Captain Robert Surcouf" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0e79-c79a-08a1-c046" name="Captain Robert Surcouf" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9aac-d18b-9bd2-3a43" type="max"/>
           </constraints>
@@ -756,7 +769,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6c90-80b9-99aa-c66e" name="François-Paul Brueys d&apos;Aigalliers" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6c90-80b9-99aa-c66e" name="François-Paul Brueys d&apos;Aigalliers" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -782,7 +795,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9ef5-d0f1-e0a1-7507" name="Charles René Magon de Médine" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9ef5-d0f1-e0a1-7507" name="Charles René Magon de Médine" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -812,7 +825,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4ecf-c752-9835-d32a" name="Louis-Antoine-Cyprien Infernet" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4ecf-c752-9835-d32a" name="Louis-Antoine-Cyprien Infernet" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -859,18 +872,28 @@
         <entryLink id="5b80-965e-4323-9d2f" name="Streamlined Hull" hidden="false" collective="false" import="true" targetId="e1a3-4e32-2de5-c232" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7d88-7913-6ca0-ac33" value="20.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b92e-52ee-4314-27e6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
         <entryLink id="b985-b929-1029-3233" name="Sturdy" hidden="false" collective="false" import="true" targetId="6021-8f0f-9f64-1a9b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="7d88-7913-6ca0-ac33" value="40.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="acdc-916f-3496-1e3c" type="atLeast"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b92e-52ee-4314-27e6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>

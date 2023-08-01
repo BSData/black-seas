@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6498-1bed-22d0-9393" name="Ottoman Empire" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6498-1bed-22d0-9393" name="Ottoman Empire" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a962-a424-b0f9-7d6c" name="Masudita" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1019,11 +1019,24 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="d91e-1673-71e9-9b65" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e11-c221-c257-d3bc" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="bb61-4aab-395c-d5ff" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bb61-4aab-395c-d5ff" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="f5d8-7a1c-d326-072e" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e17d-3d20-89d1-3d26" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5d8-7a1c-d326-072e" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="a5bd-1251-9333-ae90" name="Cezayirli Gazi Hasan Pasha" hidden="false" collective="false" import="true" targetId="c8ed-0a85-9004-4fcb" type="selectionEntry"/>

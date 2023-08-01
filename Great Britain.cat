@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c2b1-b12c-f68d-db3d" name="Great Britain" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cceb-c451-6d11-9c3f" name="HMS Agamemnon" page="" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -838,14 +838,27 @@ damage from that hit.</description>
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="c8eb-6eb3-6913-8684" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d3ac-081d-ec1b-935c" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="4742-ae9a-61ea-6c9c" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4742-ae9a-61ea-6c9c" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="4d50-318c-f533-3dc2" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df53-0fe0-be21-045c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d50-318c-f533-3dc2" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6016-c930-51c9-9bf5" name="Admiral Lord Edward Pellew" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="6016-c930-51c9-9bf5" name="Admiral Lord Edward Pellew" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccf9-2969-2113-6751" type="max"/>
           </constraints>
@@ -861,7 +874,7 @@ damage from that hit.</description>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ec93-2dce-74e9-3813" name="Admiral Lord Horatio Nelson" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ec93-2dce-74e9-3813" name="Admiral Lord Horatio Nelson" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9b1-b568-0b10-ce6c" type="max"/>
           </constraints>
@@ -883,7 +896,7 @@ damage from that hit.</description>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="60.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5a3a-d953-44ea-9f3e" name="Admiral Cuthbert Collingwood" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5a3a-d953-44ea-9f3e" name="Admiral Cuthbert Collingwood" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16fb-f25b-c9a8-6138" type="max"/>
           </constraints>
@@ -896,7 +909,7 @@ damage from that hit.</description>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="40.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3cc9-f024-1a89-7b9d" name="Thomas Cochrane" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3cc9-f024-1a89-7b9d" name="Thomas Cochrane" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -922,7 +935,7 @@ damage from that hit.</description>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="70.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="851d-9258-57df-a22e" name="Captain Richard Hall Gower" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="851d-9258-57df-a22e" name="Captain Richard Hall Gower" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -961,7 +974,7 @@ damage from that hit.</description>
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3576-27db-829e-ee23" name="Captain George Duff" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3576-27db-829e-ee23" name="Captain George Duff" publicationId="600d-46bd-39bc-a54b" page="44" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>

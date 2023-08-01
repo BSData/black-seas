@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d57f-3e27-f21f-345f" name="Portugal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d57f-3e27-f21f-345f" name="Portugal" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c204-81d2-a04e-6b78" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -541,14 +541,27 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="9696-2e76-2f12-19a3" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8294-0b2e-2589-8807" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="3a2c-c60e-a330-125e" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3a2c-c60e-a330-125e" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="c636-e6c3-e949-e1ef" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff75-c6ad-1605-80d7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c636-e6c3-e949-e1ef" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="aa95-50ff-78a0-d111" name="Admiral D. Domingos Xavier de Lima, Marques de Niza" publicationId="600d-46bd-39bc-a54b" page="71" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="aa95-50ff-78a0-d111" name="Admiral D. Domingos Xavier de Lima, Marques de Niza" publicationId="600d-46bd-39bc-a54b" page="71" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>

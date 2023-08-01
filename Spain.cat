@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c1b1-7855-47de-5089" name="Spain" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="51c2-042a-5d64-71ec" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="a605-f4ae-6072-962d" name="National Special Rules" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -812,6 +812,11 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="2039-a226-a128-45f0" name="Special Fleet Composition" hidden="false" collective="false" import="true" targetId="a0b9-7e6b-5c15-5e05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="52a4-3604-c0ee-10b4" name="New CategoryLink" hidden="false" targetId="fd46-c0ea-dc94-153c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d50d-b95e-6740-cf1b" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true">
@@ -927,12 +932,20 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="f212-44c3-d60b-b7b4" name="Special Characters" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="f212-44c3-d60b-b7b4" name="Special Characters (Select Before Crew)" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="780e-c963-47e2-5920" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dc26-56e2-0fa1-c09e" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81ea-1e60-7c33-58f5" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="780e-c963-47e2-5920" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ea56-05e0-25b5-65b5" name="Admiral Ignacio Maria de Alava y Saenz de Navarrete" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea56-05e0-25b5-65b5" name="Admiral Ignacio Maria de Alava y Saenz de Navarrete" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="659f-a4e0-7f35-7c4f" type="max"/>
           </constraints>
@@ -945,7 +958,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9cff-f256-5515-355f" name="Admiral Juan de Lángara" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9cff-f256-5515-355f" name="Admiral Juan de Lángara" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d08-b892-d2a0-7a00" type="max"/>
           </constraints>
@@ -958,7 +971,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d1b2-b639-99be-e464" name="Federico Carlos Gravina y Nápoli" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d1b2-b639-99be-e464" name="Federico Carlos Gravina y Nápoli" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -981,7 +994,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d6e8-3631-535b-eb0d" name="Cosme Damián de Churruca y Elorza" page="" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d6e8-3631-535b-eb0d" name="Cosme Damián de Churruca y Elorza" page="" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
