@@ -2,7 +2,7 @@ Black Seas - Warlord Games
 ==================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/black-seas.svg?style=flat-square)](https://github.com/BSData/black-seas/releases/latest)
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/black-seas/latest.svg?style=flat-square)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/black-seas/latest.svg?style=flat-square)]
 [![Open Bug issues](https://img.shields.io/github/issues/bsdata/black-seas/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/black-seas/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 [![GitHub contributors](https://img.shields.io/github/contributors/BSData/black-seas.svg?style=flat-square)](https://github.com/BSData/black-seas/graphs/contributors)
 ![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/black-seas.svg?style=flat-square)
