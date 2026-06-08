@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="18" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="19" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -3025,7 +3025,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-3C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">82</characteristic>
@@ -3054,7 +3054,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Size" typeId="0ef8-a01c-edd3-d8bc">L</characteristic>
-            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-1C</characteristic>
+            <characteristic name="Broadsides" typeId="1702-3933-5eee-1009">3H-2L-2C</characteristic>
             <characteristic name="Stern" typeId="7a68-b31b-0857-322b">-</characteristic>
             <characteristic name="Bow" typeId="94e1-6bcb-8628-3818">1H</characteristic>
             <characteristic name="Ship Points" typeId="23b1-8fff-b6b0-27f6">82</characteristic>
@@ -3667,7 +3667,7 @@
           <description>The Tonnant has a +1 to hit once her Ship Points drop below half the original value</description>
         </rule>
         <rule id="5c8b-e2b4-d917-14e4" name="Tonnant (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
-          <description>When</description>
+          <description>When capturing ships, the Tonnant does not deduct Ship Points for the first ship captured. Instead, only add Ship Points to the captured ship as described on page 84.</description>
         </rule>
       </rules>
       <infoLinks>
