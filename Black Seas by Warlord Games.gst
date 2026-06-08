@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="19" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="20" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -3667,7 +3667,7 @@
           <description>The Tonnant has a +1 to hit once her Ship Points drop below half the original value</description>
         </rule>
         <rule id="5c8b-e2b4-d917-14e4" name="Tonnant (Rule 2)" publicationId="600d-46bd-39bc-a54b" page="46" hidden="false">
-          <description>When capturing ships, the Tonnant does not deduct Ship Points for the first ship captured. Instead, only add Ship Points to the captured ship as described on page 84.</description>
+          <description>When capturing ships, the Tonnant does not deduct Ship Points for the first ship captured. Instead, only add Ship Points to the captured ship as described on page 84 of Hold Fast!.</description>
         </rule>
       </rules>
       <infoLinks>
