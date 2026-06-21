@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="20" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="21" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -70,7 +70,7 @@
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="fb62-ef5d-64c3-de33" name="Boarding Nets" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fb62-ef5d-64c3-de33" name="Boarding Nets" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="83f8-bac6-7978-f3f5" value="-1">
           <conditions>
@@ -94,7 +94,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="10"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4c87-0cd8-d8ad-bb26" name="Grappling Hooks" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4c87-0cd8-d8ad-bb26" name="Grappling Hooks" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="2e61-a3d2-587e-0d0a" value="-1">
           <conditions>
@@ -118,7 +118,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3c4-20ca-ba5c-4189" name="Grenades" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e3c4-20ca-ba5c-4189" name="Grenades" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="7d88-7913-6ca0-ac33" value="0">
           <conditions>
@@ -142,7 +142,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ff5-77d1-0cdb-8a27" name="Lucky" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0ff5-77d1-0cdb-8a27" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="bf07-923e-9118-1a48" value="-1">
           <conditions>
@@ -166,7 +166,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9fbc-9af9-e1f4-fece" name="Master Carpenter" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9fbc-9af9-e1f4-fece" name="Master Carpenter" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="ab4d-ce8d-34ca-feec" value="-1">
           <conditions>
@@ -190,7 +190,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8e8-d1aa-ad11-3350" name="Master Caulker" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a8e8-d1aa-ad11-3350" name="Master Caulker" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="4f71-4e17-d96c-2f27" value="-1">
           <conditions>
@@ -214,7 +214,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee94-62b3-3eda-99f9" name="Master Gunner" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ee94-62b3-3eda-99f9" name="Master Gunner" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="a8df-6574-905e-24c1" value="-1">
           <conditions>
@@ -238,7 +238,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c63-35db-f8f0-c553" name="More Carronades" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3c63-35db-f8f0-c553" name="More Carronades" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="8ab4-2640-15b9-dbf6" value="-1">
           <conditions>
@@ -262,7 +262,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="50"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bb2-8885-a14b-7c75" name="Over Gunned" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9bb2-8885-a14b-7c75" name="Over Gunned" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -291,7 +291,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="100"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5db6-6151-dd13-a235" name="Privateer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5db6-6151-dd13-a235" name="Privateer" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="6502-7dac-7fef-e244" value="-1">
           <conditions>
@@ -315,7 +315,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="10"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93c8-4fbc-c2fe-d2f5" name="Sharpshooters" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="93c8-4fbc-c2fe-d2f5" name="Sharpshooters" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="476b-9aa3-e7a9-5d66" value="-1">
           <conditions>
@@ -339,7 +339,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b564-ce37-2596-a7f0" name="Ship&apos;s Surgeon" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b564-ce37-2596-a7f0" name="Ship&apos;s Surgeon" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="7d88-7913-6ca0-ac33" value="0">
           <conditions>
@@ -363,7 +363,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e1a3-4e32-2de5-c232" name="Streamlined Hull" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e1a3-4e32-2de5-c232" name="Streamlined Hull" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="7d88-7913-6ca0-ac33" value="0">
           <conditions>
@@ -387,7 +387,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6021-8f0f-9f64-1a9b" name="Sturdy" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6021-8f0f-9f64-1a9b" name="Sturdy" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="aac9-f667-0b9e-d021" value="-1">
           <conditions>
@@ -411,7 +411,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="60"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3a3-61fb-a63f-97ad" name="Swivel Guns" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c3a3-61fb-a63f-97ad" name="Swivel Guns" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="7d88-7913-6ca0-ac33" value="0">
           <conditions>
@@ -435,7 +435,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56fa-6624-6140-94f6" name="Trained Marines" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="56fa-6624-6140-94f6" name="Trained Marines" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="042c-e310-eab9-3881" value="-1">
           <conditions>
@@ -459,7 +459,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4fb-3433-12ae-b485" name="Shallow Draft" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d4fb-3433-12ae-b485" name="Shallow Draft" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -662,7 +662,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="f930-320d-722c-2b47" name="1st Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f930-320d-722c-2b47" name="1st Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1e1-ac14-ec21-4046" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec1a-5c03-1d05-029c" type="max"/>
@@ -814,7 +814,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="ecdb-2446-2922-0f4d" name="2nd Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ecdb-2446-2922-0f4d" name="2nd Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c67-42e8-e7ac-faa2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="02e4-596d-3059-b39e" type="max"/>
@@ -948,7 +948,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="dfc3-1517-bc1a-c9f3" name="3rd Rate (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dfc3-1517-bc1a-c9f3" name="3rd Rate (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4528-eea6-261a-0d51" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a35b-c488-7beb-3c17" type="max"/>
@@ -1082,7 +1082,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="6129-ab8f-125b-b5fe" name="3rd Rate (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6129-ab8f-125b-b5fe" name="3rd Rate (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db84-3a36-080d-68c9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4278-9e1c-4bbd-6828" type="max"/>
@@ -1234,7 +1234,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="0a91-e3f7-f290-028f" name="4th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="0a91-e3f7-f290-028f" name="4th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="79ad-3d89-bedb-49af" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="838b-8f77-820a-41d4" type="max"/>
@@ -1368,7 +1368,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="a78f-d0ab-60a7-8710" name="5th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a78f-d0ab-60a7-8710" name="5th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a3e6-7e20-4e87-acec" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="957a-a71c-7ec5-dc78" type="max"/>
@@ -1502,7 +1502,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="dd58-7f16-27f9-e0b4" name="6th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dd58-7f16-27f9-e0b4" name="6th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e672-69f6-4d0b-8106" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f6f-a592-2686-88ae" type="max"/>
@@ -1568,7 +1568,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="9681-e61b-03a0-67ab" name="Barque" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9681-e61b-03a0-67ab" name="Barque" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e90-e348-bd4b-e8c1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d045-3749-1d73-f08f" type="max"/>
@@ -1634,7 +1634,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="ec7a-679d-6857-b618" name="Bomb Ketch" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ec7a-679d-6857-b618" name="Bomb Ketch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fac9-2863-caeb-f4eb" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9473-25de-1702-7fb9" type="max"/>
@@ -1738,7 +1738,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="4415-f2bf-790c-8eb6" name="Bomb Vessel" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4415-f2bf-790c-8eb6" name="Bomb Vessel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13ba-4dbf-c3e4-92c1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="570a-4365-618a-1ca3" type="max"/>
@@ -1804,7 +1804,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="d4f4-d2c2-c405-1978" name="Brig" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d4f4-d2c2-c405-1978" name="Brig" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d80-9277-746a-ca3f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb91-5868-3712-2f9b" type="max"/>
@@ -1888,7 +1888,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="e9ab-664a-9031-5336" name="Cutter" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e9ab-664a-9031-5336" name="Cutter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa7b-fa3c-aab5-c991" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e448-10db-e9d5-d00d" type="max"/>
@@ -1972,7 +1972,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="2780-7012-734f-976d" name="Fireship" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2780-7012-734f-976d" name="Fireship" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="271f-d3a4-b9d1-19d9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb44-001c-74c0-7fe9" type="max"/>
@@ -1999,7 +1999,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="d326-ec61-0b5a-0562" name="Floating Battery" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d326-ec61-0b5a-0562" name="Floating Battery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f4e-8422-782c-2070" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa62-6759-52f8-3de6" type="max"/>
@@ -2122,7 +2122,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="fdc3-1b02-c021-b9bc" name="Galley (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="fdc3-1b02-c021-b9bc" name="Galley (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="83bb-89a9-15f0-eac7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60b1-afb4-f50e-682f" type="max"/>
@@ -2245,7 +2245,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="ad67-b4a8-e245-d53e" name="Galley (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ad67-b4a8-e245-d53e" name="Galley (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6133-521d-c8fd-d76f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4de3-fb4c-ec4f-9660" type="max"/>
@@ -2304,7 +2304,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="e6a6-304b-a9b4-e389" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e6a6-304b-a9b4-e389" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="887e-d467-5d30-4ca3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9002-0d02-1fcd-49d4" type="max"/>
@@ -2363,7 +2363,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="cbde-be5e-bcae-28f0" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cbde-be5e-bcae-28f0" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="46cf-bb36-bb36-b8e9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d5f9-4bc0-65df-2ef3" type="max"/>
@@ -2441,7 +2441,7 @@
         <infoLink id="4f00-094f-44dd-a580" name="Shallow Draft" hidden="false" targetId="9046-550a-d1d4-5d98" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="a2b3-3c9d-939e-dc1d" name="Xebec (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a2b3-3c9d-939e-dc1d" name="Xebec (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="18e7-5d5b-2607-a3e7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="27c1-f38e-438e-adf8" type="max"/>
@@ -2468,7 +2468,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="d2e0-c6c1-320b-6158" name="Martello Tower" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d2e0-c6c1-320b-6158" name="Martello Tower" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51dd-9bf0-4cdf-8d7c" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8878-c041-8929-2eb0" type="max"/>
@@ -2537,7 +2537,7 @@
         <infoLink id="5f6e-7dc6-ab06-30c0" name="Inexperienced Crew" hidden="false" targetId="0571-5862-faa3-63d5" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="e10d-db67-b20c-6537" name="Merchant (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e10d-db67-b20c-6537" name="Merchant (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fcc5-a758-da29-7794" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="187a-8077-9fab-af12" type="max"/>
@@ -2606,7 +2606,7 @@
         <infoLink id="6ba2-e161-253c-c2fd" name="Inexperienced Crew" hidden="false" targetId="0571-5862-faa3-63d5" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="3749-faa3-16f8-f6ff" name="Merchant (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3749-faa3-16f8-f6ff" name="Merchant (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="34db-d36c-35f2-37e9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2403-73e0-a203-cb01" type="max"/>
@@ -2683,7 +2683,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="ca43-0f17-aa92-ebda" name="Schooner" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ca43-0f17-aa92-ebda" name="Schooner" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ad2-1469-97dd-11ac" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4846-7028-2177-8c52" type="max"/>
@@ -2710,7 +2710,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="cde8-f2ee-c0f3-f67c" name="Shore Fortress" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="cde8-f2ee-c0f3-f67c" name="Shore Fortress" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8356-1aba-56a0-cde3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d740-7c47-31a1-bdb7" type="max"/>
@@ -2737,7 +2737,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="44d6-881f-7f7a-a36d" name="Shore Gun Emplacement" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="44d6-881f-7f7a-a36d" name="Shore Gun Emplacement" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c146-a6f6-2156-9cb9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8569-4943-5b6c-7eeb" type="max"/>
@@ -2764,7 +2764,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="ba20-b824-3cd1-a6e0" name="Shore Mortar Emplacement" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ba20-b824-3cd1-a6e0" name="Shore Mortar Emplacement" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d98-3e50-b863-c4b3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ba0-b8e3-7254-fa7b" type="max"/>
@@ -2830,7 +2830,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="64fd-35f8-454c-a91c" name="Sloop" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="64fd-35f8-454c-a91c" name="Sloop" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="301c-fbd7-7eda-9c5f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a4d-fc34-18b5-e7e8" type="max"/>
@@ -2908,7 +2908,7 @@
         <infoLink id="5748-c9f1-2f84-81e6" name="Moving under oars" hidden="false" targetId="f2d3-15aa-9093-d8dd" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="12c6-87e5-f802-44ba" name="Xebec (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="12c6-87e5-f802-44ba" name="Xebec (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c077-71b5-8871-2302" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bfff-8439-6b79-579d" type="max"/>
@@ -3065,7 +3065,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="e5f4-75ab-b6bc-d8d1" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e5f4-75ab-b6bc-d8d1" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77e6-4a1b-7ed1-cc56" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13f2-bd7e-0b09-a807" type="max"/>
@@ -3222,7 +3222,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="f386-3b92-903f-03d0" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f386-3b92-903f-03d0" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b044-2240-0cf3-ebb7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a41c-a8d9-eb48-b9f7" type="max"/>
@@ -3295,7 +3295,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="3b96-6537-6f20-c1b0" name="Galleon" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3b96-6537-6f20-c1b0" name="Galleon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a53c-362a-0e74-da09" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea12-c8dd-ac60-510a" type="max"/>
@@ -3368,7 +3368,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="a5b9-5c04-0c87-6693" name="Gun Ketch" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a5b9-5c04-0c87-6693" name="Gun Ketch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e725-c79f-2328-7830" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dee-f9da-c377-bc98" type="max"/>
@@ -3445,7 +3445,7 @@
         <infoLink id="391f-030a-b307-70e7" name="Shallow Draft" hidden="false" targetId="9046-550a-d1d4-5d98" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="27b9-b5cb-b1c9-8fc4" name="Cutter (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="27b9-b5cb-b1c9-8fc4" name="Cutter (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ddb-0a14-715c-8935" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8f5-f0ec-61ec-bb63" type="max"/>
@@ -3518,7 +3518,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry id="193a-5ab8-8ad4-4753" name="Large Gunbrig" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="193a-5ab8-8ad4-4753" name="Large Gunbrig" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51bc-0c58-ee8b-cec0" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69c1-b702-ffc6-5442" type="max"/>
@@ -3677,7 +3677,7 @@
         <categoryLink id="bdcf-2003-fa80-941a" name="Famous Ships" hidden="false" targetId="c50a-53fd-9548-d8d7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="774e-8990-67b5-bf0b" name="Tonnant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="774e-8990-67b5-bf0b" name="Tonnant" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3016-a9ae-a17a-e15b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db5a-1306-23b3-d90c" type="max"/>
@@ -3793,7 +3793,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e0e5-1b5f-4f5d-2622" name="John Paul Jones" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e0e5-1b5f-4f5d-2622" name="John Paul Jones" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3813,7 +3813,7 @@
         <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="30"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c8ed-0a85-9004-4fcb" name="Cezayirli Gazi Hasan Pasha" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c8ed-0a85-9004-4fcb" name="Cezayirli Gazi Hasan Pasha" publicationId="600d-46bd-39bc-a54b" page="80" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3900,17 +3900,17 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="be09-0aca-2776-a29b" name="Crew (Reselect after changing upgrades)" hidden="false" collective="false" import="true" defaultSelectionEntryId="acdc-205d-9e68-d50a">
+    <selectionEntryGroup id="be09-0aca-2776-a29b" name="Crew" hidden="false" collective="false" import="true" defaultSelectionEntryId="acdc-205d-9e68-d50a">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b5d2-81fc-b704-b851" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c1cd-934d-9ced-96e2" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="f294-77c0-284b-cc57" name="Inexperienced Crew" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f294-77c0-284b-cc57" name="Inexperienced Crew" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="decrement" field="7d88-7913-6ca0-ac33" value="10">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="upgrade" repeats="1" roundUp="true" childName="upgrade"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -3921,7 +3921,7 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="acdc-205d-9e68-d50a" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="acdc-205d-9e68-d50a" name="Regular Crew" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
             <infoLink id="7739-01ff-5781-2046" name="Regular Crew" hidden="false" targetId="f0fa-db80-6560-a12b" type="rule"/>
           </infoLinks>
@@ -3929,11 +3929,11 @@
             <cost name="pts" typeId="7d88-7913-6ca0-ac33" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a5dc-ad98-e75d-f5c8" name="Veteran Crew" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a5dc-ad98-e75d-f5c8" name="Veteran Crew" hidden="false" collective="false" import="true" type="model">
           <modifiers>
             <modifier type="increment" field="7d88-7913-6ca0-ac33" value="10">
               <repeats>
-                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="true"/>
+                <repeat field="7d88-7913-6ca0-ac33" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="upgrade" repeats="1" roundUp="true" childName="upgrade"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -3946,7 +3946,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8b5c-d52b-7870-74b0" name="Upgrades (Select Before Crew)" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8b5c-d52b-7870-74b0" name="Upgrades" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a39-07d3-6e35-b5d1" type="max"/>
       </constraints>
@@ -3999,7 +3999,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d5aa-8236-15e1-7b35" name="Veteran Crew" publicationId="4400-38ae-29ec-f309" page="74" hidden="false">
-      <description>Various bonuses</description>
+      <description>Various bonuses TEST</description>
     </rule>
     <rule id="0571-5862-faa3-63d5" name="Inexperienced Crew" publicationId="4400-38ae-29ec-f309" page="74" hidden="false">
       <description>Various malluses</description>

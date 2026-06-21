@@ -621,7 +621,7 @@
         <categoryLink id="03a1-a03f-5cdf-43b6" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4e55-793b-c129-38a8" name="1st Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4e55-793b-c129-38a8" name="1st Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="718e-876a-0820-ab57" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fbd4-89e8-2e5e-f01a" type="max"/>
@@ -825,7 +825,7 @@
         <categoryLink id="38fc-9665-dcc5-b3d0" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9903-2a6f-b404-4c80" name="2nd Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9903-2a6f-b404-4c80" name="2nd Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc81-a145-ec1a-40fa" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a357-9ebf-e4cc-12c0" type="max"/>
@@ -981,7 +981,7 @@
         <categoryLink id="1a9c-a306-b3cb-9787" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4efb-cfd9-8f53-44b1" name="3rd Rate (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4efb-cfd9-8f53-44b1" name="3rd Rate (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="695e-af27-ecce-cad4" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1e9-4ba2-1c87-8ee9" type="max"/>
@@ -1190,7 +1190,7 @@
         <categoryLink id="123b-456a-df15-65bf" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="48c0-a680-0d13-89bc" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="48c0-a680-0d13-89bc" name="3rd Rate (Razeed)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="112d-02b9-173e-d714" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3286-afa5-dbe3-be44" type="max"/>
@@ -1376,7 +1376,7 @@
         <categoryLink id="7be8-3e41-af50-8970" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3acd-3c42-b8f6-aa0d" name="3rd Rate (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3acd-3c42-b8f6-aa0d" name="3rd Rate (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7b1-98c2-3610-3c7f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa69-0bdb-b48c-7da4" type="max"/>
@@ -1580,7 +1580,7 @@
         <categoryLink id="0346-bcc9-eafd-5375" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d615-b1ce-c529-8c00" name="4th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d615-b1ce-c529-8c00" name="4th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0300-ae6f-da9c-538c" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="983d-fabd-5e97-a254" type="max"/>
@@ -1789,7 +1789,7 @@
         <categoryLink id="3c3a-a824-babe-7f3f" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fc32-720e-c1fe-5e63" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="fc32-720e-c1fe-5e63" name="4th Rate (Razeed)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f95-4dea-353c-59b1" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8df3-0940-8dfb-de2e" type="max"/>
@@ -1975,7 +1975,7 @@
         <categoryLink id="f8c8-e7ae-1108-c6a3" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="03c1-da21-6d02-01a7" name="5th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="03c1-da21-6d02-01a7" name="5th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0de9-b47b-3599-2ea3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="979c-e55d-4949-fe3f" type="max"/>
@@ -2161,7 +2161,7 @@
         <categoryLink id="8624-6505-d646-2af4" name="Ships-of-the-Line" hidden="false" targetId="06bf-34c6-67ee-2eac" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d1ab-2c63-2d37-4a32" name="6th Rate" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d1ab-2c63-2d37-4a32" name="6th Rate" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b80f-c8ab-bd16-21df" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2aaa-c2bd-bf72-48f7" type="max"/>
@@ -2259,7 +2259,7 @@
         <categoryLink id="038f-2bab-d810-42f4" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="aebe-8ca8-9e4e-2f2d" name="Barque" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="aebe-8ca8-9e4e-2f2d" name="Barque" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97c6-170f-4dc2-85b3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2728-a24d-019a-6078" type="max"/>
@@ -2357,7 +2357,7 @@
         <categoryLink id="925c-f901-fc6a-7bcc" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ed99-17dd-4536-71e8" name="Bomb Ketch" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ed99-17dd-4536-71e8" name="Bomb Ketch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a99-aa89-3518-fc57" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6eb-2912-4073-14a8" type="max"/>
@@ -2493,7 +2493,7 @@
         <categoryLink id="0f73-a85b-81e1-b9ee" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9bec-85b2-339e-871b" name="Bomb Vessel" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9bec-85b2-339e-871b" name="Bomb Vessel" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f07-a42d-842a-3b80" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a5ca-194e-bcb5-c965" type="max"/>
@@ -2591,7 +2591,7 @@
         <categoryLink id="c2f7-1d56-ee69-def5" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9ebf-e731-9122-d32d" name="Brig" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9ebf-e731-9122-d32d" name="Brig" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8585-6f86-bcc5-5ea4" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3ac-177d-9912-23ca" type="max"/>
@@ -2707,7 +2707,7 @@
         <categoryLink id="59f0-aa2d-0065-90f1" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="12c9-a40b-cd12-12ca" name="Cutter" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="12c9-a40b-cd12-12ca" name="Cutter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac06-f60a-2fcf-56dc" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f73d-20be-c5cc-2f44" type="max"/>
@@ -2816,7 +2816,7 @@
         <categoryLink id="006e-d63f-7567-498a" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a89d-b921-7b3b-8fe3" name="Cutter (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a89d-b921-7b3b-8fe3" name="Cutter (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="715c-848c-1d16-35c7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5984-537b-9477-455c" type="max"/>
@@ -2932,7 +2932,7 @@
         <categoryLink id="523c-c9be-a6ea-5b91" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="158e-1e61-e2eb-c214" name="Fireship" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="158e-1e61-e2eb-c214" name="Fireship" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c80-1147-1b3a-78f7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25ed-9ec9-3673-9817" type="max"/>
@@ -3037,7 +3037,7 @@
         <categoryLink id="52d4-3ded-2093-b644" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="45d0-ed2d-64b7-8a00" name="Galleon" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="45d0-ed2d-64b7-8a00" name="Galleon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7e2-8e14-8869-bb0d" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d4a-6e42-cfa6-9237" type="max"/>
@@ -3192,7 +3192,7 @@
         <categoryLink id="25db-f87d-a782-72e6" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="94ad-dd5c-4d9f-3c36" name="Galley (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="94ad-dd5c-4d9f-3c36" name="Galley (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1429-3a82-81ab-2670" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="749a-63d9-7127-b88b" type="max"/>
@@ -3347,7 +3347,7 @@
         <categoryLink id="14a7-ddab-51a4-2b4b" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ce95-bd1f-da54-29fe" name="Galley (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ce95-bd1f-da54-29fe" name="Galley (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23b6-8afe-9da9-a4a9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e89f-89ed-53c6-7de6" type="max"/>
@@ -3452,7 +3452,7 @@
         <categoryLink id="06f0-3fab-e278-2c83" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1bf9-4172-2f36-8e93" name="Gun Ketch" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="1bf9-4172-2f36-8e93" name="Gun Ketch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e9a-ac8e-33e8-12b2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5e3-b07c-3022-41cb" type="max"/>
@@ -3535,7 +3535,7 @@
         <categoryLink id="fd81-fcf4-9545-c1f6" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c829-51d5-c4ff-47c5" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c829-51d5-c4ff-47c5" name="Gunboat Squadron" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7839-76c6-50ca-f8dd" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="175d-910b-3eee-124f" type="max"/>
@@ -3613,7 +3613,7 @@
         <categoryLink id="259c-ae93-6b4d-ba5e" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="4a15-0a79-6ad2-c765" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4a15-0a79-6ad2-c765" name="Gunbrig Squadron" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1634-43e4-d913-adf9" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="32ca-4708-3777-e412" type="max"/>
@@ -3713,7 +3713,7 @@
         <categoryLink id="c05c-0b9d-d522-8a52" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3dbd-9e18-e2f0-a719" name="Large Gunbrig" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3dbd-9e18-e2f0-a719" name="Large Gunbrig" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d80-5749-7c73-5c3f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4dc-f14b-83d3-87e6" type="max"/>
@@ -3814,7 +3814,7 @@
         <categoryLink id="f6d6-e96c-befa-e37e" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3a82-056f-a2af-e1d1" name="Merchant (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3a82-056f-a2af-e1d1" name="Merchant (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4aa5-33bd-e6a2-a4d4" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e994-90b5-c309-5af8" type="max"/>
@@ -3915,7 +3915,7 @@
         <categoryLink id="3997-0143-f107-12e9" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="23fb-83a8-0666-dc8a" name="Merchant (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="23fb-83a8-0666-dc8a" name="Merchant (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="817c-36e7-21ae-8d56" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d304-b9aa-9893-fed4" type="max"/>
@@ -4024,7 +4024,7 @@
         <categoryLink id="709d-4dda-d155-a1e1" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2a53-4469-aa04-65b8" name="Schooner" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="2a53-4469-aa04-65b8" name="Schooner" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="61e5-c234-9149-56fe" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="259b-41fa-1adb-da96" type="max"/>
@@ -4122,7 +4122,7 @@
         <categoryLink id="c924-e8bc-e4e9-4196" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8c3e-1b71-32db-cc24" name="Sloop" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8c3e-1b71-32db-cc24" name="Sloop" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8b4f-0a6e-cc19-3536" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c18-f550-07b9-57c9" type="max"/>
@@ -4232,7 +4232,7 @@
         <categoryLink id="e8ec-d4d5-d054-99ac" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e0e5-2840-d424-f10f" name="Xebec (Large)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e0e5-2840-d424-f10f" name="Xebec (Large)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ca3-4628-8392-d1f4" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81c1-73fe-5989-baf8" type="max"/>
@@ -4342,7 +4342,7 @@
         <categoryLink id="a382-99a3-fca9-2e91" name="Unrated Ships" hidden="false" targetId="9e85-8e97-585d-9032" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7919-f2e9-97bf-18bc" name="Xebec (Small)" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7919-f2e9-97bf-18bc" name="Xebec (Small)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="417d-3ddb-6072-987e" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3133-6c82-9c17-aa1e" type="max"/>
