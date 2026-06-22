@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="21" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="51c2-042a-5d64-71ec" name="Black Seas by Warlord Games" revision="22" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <comment>Fixed typo</comment>
   <publications>
     <publication id="4400-38ae-29ec-f309" name="CRB"/>
@@ -3999,7 +3999,7 @@
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d5aa-8236-15e1-7b35" name="Veteran Crew" publicationId="4400-38ae-29ec-f309" page="74" hidden="false">
-      <description>Various bonuses TEST</description>
+      <description>Various bonuses</description>
     </rule>
     <rule id="0571-5862-faa3-63d5" name="Inexperienced Crew" publicationId="4400-38ae-29ec-f309" page="74" hidden="false">
       <description>Various malluses</description>
